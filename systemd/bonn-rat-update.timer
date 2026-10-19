@@ -1,0 +1,10 @@
+[Unit]
+Description=Bürgerseite "Bonn entscheidet" täglich aktualisieren
+
+[Timer]
+OnCalendar=*-*-* 06:30:00
+Persistent=true
+RandomizedDelaySec=10min
+
+[Install]
+WantedBy=timers.target

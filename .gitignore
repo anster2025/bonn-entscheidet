@@ -1,0 +1,4 @@
+# Serverantworten (74 MB, auch Dokumenttexte); in der Sicherung, lassen sich neu abrufen
+cache/
+__pycache__/
+*.tmp

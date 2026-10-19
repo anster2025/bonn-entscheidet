@@ -1,0 +1,2147 @@
+{
+ "quelle": "https://www.bonn.de/service-bieten/stadtpolitik-ortsrecht/ortsrecht/rat-ausschuesse-allgemeines/zustaendigkeitsordnung-ratsausschuesse.php",
+ "stand": "9 Juli 2026",
+ "ausschuesse": [
+  {
+   "nr": "I",
+   "titel": "Hauptausschuss",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Personalangelegenheiten, über die der Rat gem. §15 der Hauptsatzung entscheidet",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Beratung des Stellenplanes, auch unter Berücksichtigung gleichstellungsrelevanter Fragen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Allgemeine Angelegenheiten des Personalwesens",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzfragen im Bereich der Geschlechtergerechtigkeit",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzfragen in den Bereichen Diversität, Antirassismus und Antidiskriminierung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Empfehlung",
+     "inhalt": "Mitberatung von Beschlussvorlagen und Anträgen, deren wesentlicher Regelungsinhalt Fragen der Gleichstellung, Geschlechtergerechtigkeit, Diversität, Antirassismus oder Antidiskriminierung betrifft",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Empfehlung",
+     "inhalt": "Zuständigkeit für den Gleichstellungsplan und Überwachung der Umsetzung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Entscheidungen in den Angelegenheiten, die der Beschlussfassung des Rates unterliegen, falls die Angelegenheit keinen Aufschub duldet (§ 60 Abs. 1 GO NRW)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Entscheidung über die Planung von Verwaltungsaufgaben von besonderer Bedeutung gem. § 61 GO NRW",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Entscheidung",
+     "inhalt": "Genehmigung der Empfehlungen der Bezirksvertretungen und der Fachausschüsse im Rahmen bestehender Haushaltsansätze, soweit es sich nicht um Angelegenheiten handelt, die dem Rat oder den Bezirksvertretungen zur Beschlussfassung vorbehalten sind; ausgenommen sind solche Empfehlungen, für die eine Fraktion oder ein Antragsteller eine Beschlussfassung im Rat verlangt.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Entscheidung",
+     "inhalt": "Abstimmung der Arbeit der Ratsausschüsse (§ 59 Abs. 1 GO NRW) und Entscheidung über die Zuständigkeit von Bezirksvertretungen oder Ausschüssen im Einzelfall (§ 37 Abs. 2 GO NRW).",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Entscheidung",
+     "inhalt": "Konzeption für städtische Werbemaßnahmen des Presseamtes und der Öffentlichkeitsarbeit der Stadt Bonn.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Entscheidung",
+     "inhalt": "Erteilung von Aufträgen an die Verwaltung, sofern hierdurch Verwaltungskraft nachhaltig gebunden und der Erledigung laufender Aufgaben entzogen wird oder die Erledigung auch durch externe Vergabe möglich ist und hierfür Haushaltsmittel nicht zur Verfügung stehen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Entscheidung",
+     "inhalt": "Benennung und Umbenennung städtischer Schulen, Straßen, Wege und Plätze, Sporthallen und Plätze sowie öffentliche Einrichtungen, soweit die Bezirksvertretungen von der vom Rat beschlossenen Benennungsliste abweichen wollen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Entscheidung",
+     "inhalt": "Angelegenheiten, die die Modernisierung der Verwaltungsstruktur betreffen, soweit nicht eine Zuständigkeit des Rates nach § 41 Abs. 1 Buchst. A) der Gemeindeordnung NRW gegeben ist.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.9",
+     "art": "Entscheidung",
+     "inhalt": "Benennung von Haltestellen des Öffentlichen Personennahverkehrs",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.10",
+     "art": "Entscheidung",
+     "inhalt": "Auf Vorschlag des Kulturausschusses, Entscheidung über die Annahme von Schenkungen und den Ankauf von Kunstwerken oder die Auftragsvergabe für Kunstwerke, die an öffentlichen Straßen, auf öffentlichen Plätzen oder in Grünanlagen aufgestellt werden sollen und deren Anschaffungswert 50.000 € netto übersteigt.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.11",
+     "art": "Entscheidung",
+     "inhalt": "Änderung in der Straßenbenennungsliste",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.12",
+     "art": "Entscheidung",
+     "inhalt": "Angelegenheiten, von nicht grundsätzlicher Bedeutung, die wesentlich über einen Stadtbezirk hinausgehen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.13",
+     "art": "Entscheidung",
+     "inhalt": "Jurybesetzungen, personelle Besetzungen von städtischen Beteiligungen (Ausnahme: Jurybesetzungen, die im Rahmen von Zielbeschlüssen der Bauleitplanverfahren eingebracht werden.)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Mitteilung",
+     "inhalt": "Grundsätzliche Personalentwicklungsmaßnahmen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Mitteilung",
+     "inhalt": "Grundsätzliche Veränderungen der Tarifstruktur",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Mitteilung",
+     "inhalt": "Kenntnisnahme von Berichten der Gleichstellungsbeauftragen und weiteren Berichten der Verwaltung zu gleichstellungs- und antidiskriminierungspolitischen Fragestellungen.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Hauptausschuss"
+  },
+  {
+   "nr": "II",
+   "titel": "Ausschuss für Kinder, Jugend und Familie",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Vorberatung des Haushaltsplanes für die Aufgaben der Jugendhilfe",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Förderung und Anregung zur Schaffung der erforderlichen Einrichtungen und Veranstaltungen der Jugendhilfe",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Anhörung vor Bestellung der Leiterin / des Leiters der Verwaltung des Jugendamtes",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Ausweisung und Planung von Spielplätzen, Kindergärten, Kindertageseinrichtungen und Einrichtungen der offenen Jugendarbeit",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen im Rahmen der Kinder- u. Jugendbeteiligung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Empfehlung",
+     "inhalt": "Beratung von Kitabaumaßnahmen vor der Behandlung im Betriebsausschuss SGB",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzentscheidungen im Zusammenhang mit Schulassistenzen/Integrationsassistenzen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.8",
+     "art": "Empfehlung",
+     "inhalt": "Offene Ganztagsschulen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Erlass von Richtlinien und Grundsätzen für die Förderung von Einrichtungen, Maßnahmen und Anschaffungen der Jugendhilfe",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Aufstellung von Richtlinien und Grundsätzen für die Festsetzung der Leistungen oder Hilfen zur Erziehung, soweit diese nicht durch höherrangiges Recht geregelt werden oder Geschäfte der laufenden Verwaltung sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Entscheidung",
+     "inhalt": "Jugendhilfeplanung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Entscheidung",
+     "inhalt": "Öffentliche Anerkennung nach § 75 SGB VIII (KJHG) i.V.m. § 25 AG KJHG",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Entscheidung",
+     "inhalt": "Förderung der Träger der freien Jugendhilfe",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Entscheidung",
+     "inhalt": "Verteilung der im Haushaltsplan bereitgestellten Mittel an die freien Vereinigungen der Jugendwohlfahrt und Jugendverbände",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Entscheidung",
+     "inhalt": "Gewährung von Zuschüssen zu den Kosten für den Bau und die Einrichtung von Tageseinrichtungen für Kinder",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Entscheidung",
+     "inhalt": "Aufstellung von Vorschlagslisten für die Wahl der Jugendschöffen",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Kinder, Jugend und Familie"
+  },
+  {
+   "nr": "III",
+   "titel": "Ausschuss für Beteiligung der Bürgerinnen und Bürger",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Beratung und Formulierung der Haltung des Ausschusses zu allen Fragen der Bürgerpartizipation sowie Abgabe einer Empfehlung in der Sache an die zuständigen Beratungs- und Entscheidungsgremien (die nach dieser Zuständigkeitsordnung zuständigen Ausschüsse/Bezirksvertretungen und/oder der Rat)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Konzeptionierung und Strukturierung von zielgruppenorientierter Kinder- und Jugendbeteiligung mit dem Jugendhilfeausschuss",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Empfehlung zur Durchführung von Beteiligungsverfahren unter Beachtung der vergaberechtlichen Rahmenbedingungen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Anregungen und Beschwerden nach § 24 GO NRW (Förmliche Entscheidung über den Bürgerantrag; Empfehlung in der Sache an das entscheidungsbefugte Gremium): Beratung und Formulierung der Haltung des Ausschusses zu den beratenen Anregungen und Beschwerden von gesamtstädtischer Bedeutung sowie Abgabe einer Empfehlung in der Sache an das entscheidungsbefugte Gremium (den Rat oder den nach dieser Zuständigkeitsordnung entscheidungsbefugten Ausschuss oder bei Geschäften der laufenden Verwaltung an den Oberbürgermeister/die Oberbürgermeisterin)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Partizipation der Bürger*innen an politischen Entscheidungsfindungsprozessen von gesamtstädtischer Bedeutung außerhalb formeller Verfahren. Unter besonderer Berücksichtigung eines restriktiven Ressourceneinsatzes.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Entscheidung",
+     "inhalt": "Ausgestaltung der Verfahren zur Beteiligung der Bürger*innen an politischen Entscheidungsfindungsprozessen von gesamtstädtischer Bedeutung.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Entscheidung",
+     "inhalt": "Evaluation und Weiterentwicklung der „Leitlinien Bürgerbeteiligung“.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Entscheidung",
+     "inhalt": "Erledigung von Anregungen und Empfehlungen des Beirats Bürgerbeteiligung zu Themen der Beteiligung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Entscheidung",
+     "inhalt": "Ausgestaltung und Veröffentlichung der Vorhabenliste",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Entscheidung",
+     "inhalt": "Erledigung der Anregungen und Empfehlungen des Beirates Kinder- und Jugendbeteiligung zu Themen der Beteiligung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Entscheidung",
+     "inhalt": "Konzeptionelle Weiterentwicklung analoger und digitaler Beteiligungsformate für Kinder und Jugendliche.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Beteiligung der Bürgerinnen und Bürger"
+  },
+  {
+   "nr": "IV",
+   "titel": "Ausschuss für Finanzen, Beteiligungen und Vergabe",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Vorbereitung und Ausführung der Haushaltssatzung, Aufstellung eines Haushaltssicherungskonzeptes, Festsetzung des Investitionsprogramms",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Entgegennahme und Behandlung von Prüfungsberichten gem. § 11 Rechnungsprüfungsordnung bzw. gem. § 12 Rechnungsprüfungsordnung im Falle der Vorberatung für den Rat",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Ausführung des Haushaltsplanes, soweit hierfür nicht andere Ausschüsse zuständig sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Übernahme von Bürgschaften und Bestellung sonstiger Sicherheiten für andere sowie solche Rechtsgeschäfte, die den vorgenannten wirtschaftlich gleichkommen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Abgabensatzungen und Entgeltordnungen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Empfehlung",
+     "inhalt": "Empfehlungen der Fachausschüsse und Anregungen der Bezirksvertretungen mit finanziellen Auswirkungen gem. § 22 Abs. 8 der Geschäftsordnung des Rates",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Empfehlung",
+     "inhalt": "Empfehlungen der Fachausschüsse und Anregungen der Bezirksvertretungen mit finanziellen Auswirkungen für die Eigenbetriebe und Eigengesellschaften der Bundesstadt Bonn",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.8",
+     "art": "Empfehlung",
+     "inhalt": "Erlass sowie unbefristete Niederschlagung von Ansprüchen, Erklärungen im Rahmen von Insolvenzverfahren und Abschluss von Vergleichen über Ansprüche nach den in der hierzu geltenden Satzung festgelegten Wertgrenzen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.9",
+     "art": "Empfehlung",
+     "inhalt": "Wirtschaftliche Betätigung, insbesondere Gründung, Erwerb, Veräußerung von Gesellschaften oder Anteilen von Gesellschaften",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.10",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Neuen Kommunalen Finanzmanagements sowie Einführung neuer Steuerungsinstrumente",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.11",
+     "art": "Empfehlung",
+     "inhalt": "Fragen, die mit der Thematik geschlechtergerechter Haushalt (Gender Budgetierung) zusammenhängen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.12",
+     "art": "Empfehlung",
+     "inhalt": "Konzeption und Weiterentwicklung des städtischen Beteiligungsportfolios",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.13",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Umweltschutzes im Bereich des Beschaffungswesens und bei Durchführung von Bauaufgaben sowie die Berücksichtigung weiterer Kriterien mit vergaberechtlichen Auswirkungen (z.B. soziale Kriterien, Mittelstandsförderung)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.14",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzangelegenheiten des Vergaberechts (z.B. Vergabeordnung)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.15",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des WorldCCBonn und der Beethovenhalle in Bezug auf die Produktgruppen 1.15.07 und 1.15.08 - Insbesondere Fragen der Betriebsführung und der Eigentümerfunktion. - Bereitstellung/Freigabe von Budgets an das SGB für Bauunterhaltung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.16",
+     "art": "Empfehlung",
+     "inhalt": "Auf Vorschlag des Kulturausschusses, Empfehlungen über die Annahme von Schenkungen und den Ankauf von Kunstwerken oder die Auftragsvergabe für Kunstwerke, die an öffentlichen Straßen, auf öffentlichen Plätzen oder in Grünanlagen aufgestellt werden sollen und deren Anschaffungswert 50.000 € netto übersteigt.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.17",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Satzungs- und Gebührenrechts für Abwasseranlagen, Erschließungsanlagen, des Friedhofs- und Begräbniswesen sowie von Feuerwehr und Rettungsdienst",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.18",
+     "art": "Empfehlung",
+     "inhalt": "Einräumung und Begründung von Erbbaurechten in den Fällen, in denen der Grundstücksverkauf oder -ankauf eines Ratsbeschlusses bedurfte.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.19",
+     "art": "Empfehlung",
+     "inhalt": "Grundstücksankäufe sowie Ausübung bzw. Nichtausübung von Vorkaufsrechten und Grunderwerbsrechten ab 50.000 € für Vorratsgelände, soweit nicht durch Ratsbeschluss besondere Regelungen getroffen sind.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.20",
+     "art": "Empfehlung",
+     "inhalt": "Grundstücksankäufe sowie Ausübung bzw. Nichtausübung von Vorkaufsrechten und Grunderwerbsrechten von 175.000 € bis 500.000 € zur Durchführung von Bebauungsplänen und zur Ausführung von Einzelmaßnahmen, soweit nicht durch Ratsbeschluss besondere Regelungen getroffen sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.21",
+     "art": "Empfehlung",
+     "inhalt": "Grundstücksverkäufe ab 40.000 €.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.22",
+     "art": "Empfehlung",
+     "inhalt": "Einräumung und Begründung von Erbbaurechten in den Fällen, in denen der Grundstücksverkauf oder -ankauf eines Ausschussbeschlusses bedurfte. Ausgenommen sind Angelegenheiten, über die aufgrund der Betriebssatzung des SGB der Betriebsausschuss entscheidet.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.23",
+     "art": "Empfehlung",
+     "inhalt": "Verpachtung sowie Vermietung von Grundstücken mit einer Laufzeit von mehr als 5 Jahren in den Fällen, in denen das Jahresentgelt im Einzelfall 25.000 € übersteigt. Ausgenommen sind Angelegenheiten, über die aufgrund der Betriebssatzung des SGB der Betriebsausschuss oder die Betriebsleitung entscheidet",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.24",
+     "art": "Empfehlung",
+     "inhalt": "Anpachtung und Anmietung von Grundstücken mit einer Laufzeit von mehr als 5 Jahren in denen das Jahresentgelt im Einzelfall 20.000 € übersteigt. Ausgenommen sind Angelegenheiten, über die aufgrund der Betriebssatzung des SGB der Betriebsausschuss oder die Betriebsleitung entscheidet",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.25",
+     "art": "Empfehlung",
+     "inhalt": "Ausübung/Nichtausübung von Wiederverkaufsrechtsen/Heimfallrechten bzw. die Geltendmachung von Vertragsstrafen im Zusammenhang mit Grundstücksvergaben, wenn die Vergabe in der Kompetenz des Ausschusses liegt",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Gewährung von städtischen Zuschüssen, soweit es sich nicht um Geschäfte der laufenden Verwaltung handelt und nicht die Entscheidungskompetenz des Rates, einer Bezirksvertretung oder eines Ausschusses gegeben ist",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Abschluss von Verträgen, mit denen für die Stadt Erträge/Einzahlungen oder Aufwendungen/Auszahlungen einmalig von mehr als 200.000 € oder fortlaufend von mehr als 100.000 € jährlich verbunden sind, soweit nicht die Zuständigkeit anderer Ausschüsse oder des Rates nach der Zuständigkeitsordnung oder gem. § 41 Abs. 1 GO NRW gegeben ist",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Entscheidung",
+     "inhalt": "Annahme von Spenden und Schenkungen mit einem Wert von mehr als 50.000 €",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Entscheidung",
+     "inhalt": "Verträge über die Verfügung über Gemeindevermögen, Vornahme von Schenkungen und Hingabe von Darlehen mit einem Wert von mehr als 50.000 €, soweit nicht nach der Zuständigkeitsordnung andere Ausschüsse zuständig sind. Ausgenommen hiervon sind Darlehen, die nach dem Bundessozialhilfegesetz gewährt werden sowie Darlehen für den Wohnungsbau aufgrund vom Rat beschlossener Richtlinien. Verträge ab 20.000 € werden dem Finanzausschuss einmal jährlich zur Kenntnis gebracht",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Entscheidung",
+     "inhalt": "Grundsätzliche Regelungen für das Zins- und Schuldenmanagement und für den Abschluss von Zinssicherungs- und Zinsoptimierungsgeschäften",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Entscheidung",
+     "inhalt": "Befristete Niederschlagung von Ansprüchen nach den in der hierzu geltenden Satzung festgelegten Wertgrenzen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Entscheidung",
+     "inhalt": "Investitionscontrolling (Abwicklung Haushaltsreste Vorjahre)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Entscheidung",
+     "inhalt": "Entsperrung und Freigabe von Haushaltsmitteln",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.9",
+     "art": "Entscheidung",
+     "inhalt": "Regelungen für Grundsatzangelegenheiten im Bereich des Anlagenmanagements der Bundesstadt Bonn und der ihr zugehörigen rechtlich unselbstständigen Stiftungen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.10",
+     "art": "Entscheidung",
+     "inhalt": "Wirtschafts- und Bewirtschaftungspläne, Jahresabschlüsse von Eigenbetrieben und Eigengesellschaften",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.11",
+     "art": "Entscheidung",
+     "inhalt": "Vor Beginn eines Vergabeverfahrens mit einem Schätzwert über 100.000 Euro bei Liefer– bzw. Dienstleistungen sowie bei Bauleistungen über 250.000 Euro bedarf es eines Einleitungsbeschlusses des Finanzausschusses bzw. der gemäß Bezirkssatzung zuständigen Bezirksvertretung, sofern nicht bereits der Rat, eines seiner Gremien oder eine Bezirksvertretung einen entsprechenden Beschluss gefasst hat bzw. die Vergabemaßnahme auf Grundlage eines beschlossenen Wirtschaftsplanes gemäß § 108 Abs. 3 Nr. 1 a) GO NRW erfolgt. Eines Einleitungsbeschlusses bedarf es nicht, wenn es sich um Maßnahmen handelt, die im Rahmen der Verkehrssicherungspflicht, aufgrund von verkehrsrechtlichen Anordnungen, hinsichtlich der wiederkehrenden Wartung bzw. Prüfung von Anlagen oder für die Aufrechterhaltung des Dienstbetriebs (z. B. Büromaterial, Papier, Hygieneartikel, Erneuerung/Austausch von Mobiliar) erforderlich sind, sowie bei regelmäßigen Leistungen im Schul- und Jugendbereich (Lernmaterial, Mobiliar, Verpflegung, Transportleistungen). Sofern die Maßnahme dringlich im vergaberechtlichen Sinne ist und aus Zeitgründen die Einholung eines Einleitungsbeschlusses vor dem Vergabebeschluss nicht möglich ist, ist im Vergabebeschluss bzw. im Rahmen einer Mitteilungsvorlage die Dringlichkeit zu begründen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Mitteilung",
+     "inhalt": "Spenden und Schenkungen mit einem Wert ab 5.000 € über deren Annahme im Rahmen der Geschäfte der laufenden Verwaltung entschieden worden ist, sind dem Finanzausschuss einmal jährlich zur Kenntnis zu bringen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Mitteilung",
+     "inhalt": "Mitteilung über aufgenommene Kredite",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Mitteilung",
+     "inhalt": "Bericht zur haushaltswirtschaftlichen Lage (Quartalsberichte)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Mitteilung",
+     "inhalt": "Berichte der Eigenbetriebe und Beteiligungen, insbesondere Beteiligungsbericht",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.5",
+     "art": "Mitteilung",
+     "inhalt": "Sponsoringleistungen mit einem Wert ab 5.000 € sind dem Ausschuss für Finanzen und Beteiligungen einmal jährlich zur Kenntnis zu bringen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.6",
+     "art": "Mitteilung",
+     "inhalt": "Jahresbericht über das städtische Zins- und Schuldenmanagement",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.7",
+     "art": "Mitteilung",
+     "inhalt": "Jahresbericht über die Finanzanlagen der Bundesstadt Bonn",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.8",
+     "art": "Mitteilung",
+     "inhalt": "Grundsätzliche finanzpolitische Entwicklungen (z.B. Gemeindefinanzsystem, Gemeindefinanzierungsgesetz GfG)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.9",
+     "art": "Mitteilung",
+     "inhalt": "Die im Rahmen der Geschäfte der laufenden Verwaltung abgewickelten Grundstücksan- und -verkäufe sind dem Ausschuss für Finanzen, Beteiligungen und Vergabe regelmäßig zur Kenntnis zu bringen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.10",
+     "art": "Mitteilung",
+     "inhalt": "Quartalsweiser Bericht über alle nach der Vergabeordnung für Bauleistungen (VOB/A und VOB/A-EU), der Unterschwellenvergabeordnung (UVgO) und der Vergabeverordnung (VgV) vergebenen Aufträgen mit einem Auftragswert von über 25.000 EURO. Zu den Aufträgen ist auszuweisen, welche Nachhaltigkeitskriterien bei der Vergabe berücksichtigt wurden. Zudem werden aufgeführt: das jeweils zuständige Amt die federführende Person der Auftragnehmer die Laufzeit die voraussichtlichen Kosten die Vorgangsnummer",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Finanzen, Beteiligungen und Vergabe"
+  },
+  {
+   "nr": "V",
+   "titel": "Ausschuss für Wirtschaft, Liegenschaften und Arbeit",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Anhörung",
+     "inhalt": "Veröffentlichung von Bauleitplänen, in denen Gewerbegebiete ausgewiesen, geändert oder aufgehoben werden sollen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der Wirtschafts- und Arbeitsmarktförderung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der Innovations- und Technologieförderung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Entscheidung",
+     "inhalt": "Angelegenheiten des Kongresswesens und des Tourismus",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Entscheidung",
+     "inhalt": "Verpachtung gastronomischer Betriebe und des Rechts, auf öffentlichen Wegen und Plätzen Werbung zu betreiben, sofern das Jahresentgelt im Einzelfall 12.500 € übersteigt",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Entscheidung",
+     "inhalt": "Einräumung und Begründung von Erbbaurechten in den Fällen, in denen der Grundstücksverkauf oder -ankauf eines Ratsbeschlusses bedurfte.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Entscheidung",
+     "inhalt": "Grundstücksankäufe sowie Ausübung bzw. Nichtausübung von Vorkaufsrechten und Grunderwerbsrechten ab 50.000 € für Vorratsgelände, soweit nicht durch Ratsbeschluss besondere Regelungen getroffen sind. Ausgenommen sind Angelegenheiten, über die aufgrund der Zuständigkeitsordnung andere Ausschüsse entscheiden.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.5",
+     "art": "Entscheidung",
+     "inhalt": "Grundstücksankäufe sowie Ausübung bzw. Nichtausübung von Vorkaufsrechten und Grunderwerbsrechten von 175.000 € bis 500.000 € zur Durchführung von Bebauungsplänen und zur Ausführung von Einzelmaßnahmen, soweit nicht durch Ratsbeschluss besondere Regelungen getroffen sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.6",
+     "art": "Entscheidung",
+     "inhalt": "Grundstücksverkäufe ab 40.000 €. Ausgenommen sind Angelegenheiten, über die aufgrund der Zuständigkeitsordnung andere Ausschüsse entscheiden.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.7",
+     "art": "Entscheidung",
+     "inhalt": "Einräumung und Begründung von Erbbaurechten in den Fällen, in denen der Grundstücksverkauf oder -ankauf eines Ausschussbeschlusses bedurfte. Ausgenommen sind Angelegenheiten, über die aufgrund der Betriebssatzung des SGB der Betriebsausschuss entscheidet.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.8",
+     "art": "Entscheidung",
+     "inhalt": "Verpachtung sowie Vermietung von Grundstücken mit einer Laufzeit von mehr als 5 Jahren in den Fällen, in denen das Jahresentgelt im Einzelfall 25.000 € übersteigt. Ausgenommen sind Angelegenheiten, über die aufgrund der Betriebssatzung des SGB der Betriebsausschuss oder die Betriebsleitung entscheidet",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.9",
+     "art": "Entscheidung",
+     "inhalt": "Anpachtung und Anmietung von Grundstücken mit einer Laufzeit von mehr als 5 Jahren in denen das Jahresentgelt im Einzelfall 20.000 € übersteigt. Ausgenommen sind Angelegenheiten, über die aufgrund der Betriebssatzung des SGB der Betriebsausschuss oder die Betriebsleitung entscheidet",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.10",
+     "art": "Entscheidung",
+     "inhalt": "Ausübung/Nichtausübung von Wiederverkaufsrechtsen/Heimfallrechten bzw. die Geltendmachung von Vertragsstrafen im Zusammenhang mit Grundstücksvergaben, wenn die Vergabe in der Kompetenz des Ausschusses liegt",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Wirtschaft, Liegenschaften und Arbeit"
+  },
+  {
+   "nr": "VI",
+   "titel": "Ausschuss für Wissenschaft, Europa und Internationales",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Anhörung",
+     "inhalt": "Maßnahmen, die Auswirkungen auf das internationale Profil der Bundesstadt Bonn haben",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Anhörung",
+     "inhalt": "Planungen zu internationalen Veranstaltungen, Kongressen und Events (z.B. UN-Konferenzen, Weltkonferenzen zu Nachhaltigkeitsthemen) und deren Begleitung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Anhörung",
+     "inhalt": "Kommunale Maßnahmen, die besonders wissenschaftliche Einrichtungen, Wissenschaftler/innen und Studierende betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Anhörung",
+     "inhalt": "Angelegenheiten des Kongresswesens, soweit sie den internationalen Standort betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Anhörung",
+     "inhalt": "Kommunale Maßnahmen, die die Entwicklung der Wissenschaftsregion betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Anhörung",
+     "inhalt": "Maßnahmen zur Stärkung des Fair Trade-Standortes und des fairen Handels und der fairen Beschaffung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Anhörung",
+     "inhalt": "Vorschläge an den Rat zur Benennung von Vertreter*innen in Netzwerken, die den nationalen und internationalen Politikstandort betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Empfehlung",
+     "inhalt": "Begleitung des Ausbaus Bonns als Zentrum für Internationale Zusammenarbeit und globale Nachhaltigkeitsfragen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen, die die Bereiche Internationale Stadt, Bundesstadt und Wissenschaft und Forschung betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Empfehlung",
+     "inhalt": "Kommunale Mitwirkung bei Planungen zu internationalen Veranstaltungen, Kongressen und Events",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Empfehlung",
+     "inhalt": "Umsetzung des Zukunftskonzeptes „Internationaler Politikstandort“ der Bundesstadt Bonn und andere Konzepte, die den internationalen Standort betreffen, soweit nicht die Bezirksvertretungen zuständig sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Empfehlung",
+     "inhalt": "Kommunale Europaarbeit und Kontakte zu europäischen Netzwerken und Institutionen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen, die die Bonner Willkommenskultur betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Empfehlung",
+     "inhalt": "Stärkung der Netzwerkbildung auf lokaler Ebene, insbesondere im Be- reich der entwicklungspolitischen Bildungs- und Öffentlichkeitsarbeit (z.B. Eine-Welt-Gruppen, Schulen und Migrantenorganisationen)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Empfehlung",
+     "inhalt": "Fragen im Bereich der Lokalen Agenda, soweit sie die internationale Zusammenarbeit oder den internationalen Standort betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.9",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des internationalen Marketings",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.10",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der entwicklungspolitischen Bildungs- und Öffentlichkeitsarbeit in Bonn",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.11",
+     "art": "Empfehlung",
+     "inhalt": "Umsetzung der nachhaltigen Entwicklungsziele (Agenda 2030/SDGs) der VN und anderer internationaler Agenden (Klima, Biodiversität, Neue Urbane Agenda), soweit sie für den internationalen Standort relevant sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.12",
+     "art": "Empfehlung",
+     "inhalt": "Entwicklung von Projekten, die das internationale Bonn prägen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.13",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Wissenschafts- und Technologiestandortes Bonn",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.14",
+     "art": "Empfehlung",
+     "inhalt": "Fragen, die den Status Bonns als Bundesstadt betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.15",
+     "art": "Empfehlung",
+     "inhalt": "Förderung wissenschaftlicher Einrichtungen unter besonderer Berücksichtigung der Akquise von externen Projektmitteln",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.16",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Wissenschaftsmarketings und der Wissenschaftskommunikation",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.17",
+     "art": "Empfehlung",
+     "inhalt": "Kommunale Maßnahmen, die Bezug zum internationalen Profil der Stadt Bonn haben",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.18",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Tourismus",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.19",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der Innovations- und Technologieförderung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Entscheidung",
+     "inhalt": "Vergabe von „Mitteln für entwicklungspolitische Bildungsarbeit und Projektpartnerschaften“ sowie von „Mitteln zur Förderung von Projekten zur Umsetzung der Agenda 2030“, die im Haushalt der Stadt Bonn eingestellt sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Entscheidung",
+     "inhalt": "Soweit in der Entscheidungshoheit der Stadt Bonn: Entscheidung über Zuwendung von nicht projektgebundenen Drittmitteln an lokale Gruppierungen, die sich mit entwicklungspolitischer Bildungsarbeit, den Projektpartnerschaften und der Umsetzung der SDG et. al. befassen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Entscheidung",
+     "inhalt": "Zusammenarbeit mit wissenschaftlichen Einrichtungen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Entscheidung",
+     "inhalt": "Zusammenarbeit mit internationalen Einrichtungen und Einrichtungen, die sich mit internationaler Zusammenarbeit befassen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.1",
+     "art": "Mitteilung",
+     "inhalt": "Bericht der Verwaltung über die europäische Zusammenarbeit der Bundesstadt Bonn, insbesondere über Beteiligungen an europäischen Netzwerken, Kooperationen sowie eingeworbene EU-Fördermittel und laufende EU-Projekte.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.2",
+     "art": "Mitteilung",
+     "inhalt": "Bericht der Verwaltung zur Entwicklung des Wissenschaftsstandortes Bonn, insbesondere zur Zusammenarbeit der Stadt Bonn mit Hochschulen, Forschungseinrichtungen und wissenschaftlichen Netzwerken.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Wissenschaft, Europa und Internationales"
+  },
+  {
+   "nr": "VII",
+   "titel": "Ausschuss für Planen, Bauen und Denkmalschutz",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Anhörung",
+     "inhalt": "Verfahrenseinleitende Beschlüsse zu städtischen Hochbaumaßnahmen (außer Maßnahmen des SGB) von gesamtstädtischer oder bezirklicher Bedeutung und Genehmigung der Entwurfsplanung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Anhörung",
+     "inhalt": "Wesentliche Veränderungen an Denkmälern soweit sie öffentliche Gebäude sind oder von besonderem öffentlichen Interesse sind.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Anhörung",
+     "inhalt": "Angelegenheiten in Baugenehmigungsverfahren, wenn ein Bauantrag oder eine Bauvoranfrage aus planungsrechtlichen Gründen versagt werden soll",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Anhörung",
+     "inhalt": "Angelegenheiten in Baugenehmigungsverfahren, wenn Ausnahmen von Veränderungssperren gem. § 14 Abs. 2 BauGB erteilt werden sollen; hiervon ausgenommen sind kleinere Vorhaben wie Werbeanlagen, Kleingaragen oder geringfügige Um- und Erweiterungsbauten",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Anhörung",
+     "inhalt": "Angelegenheiten in Baugenehmigungsverfahren, wenn Genehmigungen im Außenbereich gem. § 35 Abs. 2 oder 4 BauGB erteilt werden sollen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Anhörung",
+     "inhalt": "Vorstellung sämtlicher Bauvoranfragen und Bauanträge vor Genehmigung von gesamtstädtischer, bezirklicher oder besonderer ortsteilmäßiger Bedeutung, sofern sie mehr als 2000 qm2 BGF oder mehr als 30 WE umfassen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Anhörung",
+     "inhalt": "Baugenehmigungs- oder Bauleitplanungen, die den Umgebungsschutz von Denkmälern betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Empfehlung",
+     "inhalt": "Stadtgestaltung (Gestaltung bedeutsamer städtebaulicher Räume von gesamtstädtischer Bedeutung, Gestaltungs- und Erhaltungssatzungen)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Empfehlung",
+     "inhalt": "Erlass von Veränderungssperren",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Empfehlung",
+     "inhalt": "Sonstige Rahmenpläne, insbesondere städtebauliche Entwicklungskonzepte und sonstige städtebauliche Planungen i.S.d. § 1 Abs. 6 Nr. 11 BauGB",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Empfehlung",
+     "inhalt": "Umlegungs-, Sanierungs- und Entwicklungsmaßnahmen nach dem BauGB",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Empfehlung",
+     "inhalt": "Planungen der Verwaltung, die von Festlegungen in den durch den Rat beschlossenen Rahmenplanungen abweichen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Empfehlung",
+     "inhalt": "Planung von Grün- und Sportanlagen, Friedhöfen und Erholungsgebieten bis zur Entwurfsplanung, soweit es sich um Maßnahmen von gesamtstädtischer Bedeutung handelt",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Empfehlung",
+     "inhalt": "Vorplanung von wasserbaulichen Maßnahmen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Empfehlung",
+     "inhalt": "Aufstellung und Änderung von Landschaftsplänen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.9",
+     "art": "Empfehlung",
+     "inhalt": "Unterschutzstellung von Denkmalbereichen (§ 10 DSchG NRW)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.10",
+     "art": "Empfehlung",
+     "inhalt": "Planungen ab der Entwurfsplanung und die Ausführung städtischer Hoch- und Tiefbaumaßnahmen einschließlich der Abwasserbeseitigung sowie von Grün- und Sportanlagen, Friedhöfen, Spiel- und Bolzplätzen und Erholungsgebieten, ausgenommen Verkehrsanlagen; soweit es sich um Maßnahmen von gesamtstädtischer Bedeutung handelt. Dies gilt auch für Planungen auf der Grundlage von Erschließungsverträgen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.11",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen der Wohnumfeldverbesserung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.12",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen der Mobilitätsplanung, aber nur insofern es um Planfeststellungsverfahren geht",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.13",
+     "art": "Empfehlung",
+     "inhalt": "Fragen der Parkraumbewirtschaftung und der lokalen Verkehrskonzepte für Orts- und Stadtteile",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.14",
+     "art": "Empfehlung",
+     "inhalt": "Vorplanung von Straßen usw., die nicht im B-Plänen ausgewiesen sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.15",
+     "art": "Empfehlung",
+     "inhalt": "In der Bauleitplanung der Beschluss über grundsätzliche Entwicklungsziele für Gebiete, für die Bebauungsplanverfahren von Dritten beantragt werden oder von der Verwaltung vorgeschlagen werden (Zielbeschluss) und der Satzungsbeschluss des Bebauungsplans.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.16",
+     "art": "Empfehlung",
+     "inhalt": "Zustimmungsbeschluss gemäß § 36a BauGB bei planungsbedürftigen Vorhaben (Bau-Turbo Kategorie 3)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.a",
+     "art": "Empfehlung",
+     "inhalt": "Inhalt und Durchführung der Beteiligung der Öffentlichkeit nach § 3 Abs. 1 BauGB soweit nicht §7, Ziffer 3 Sätze 2 und 3 der Bezirkssatzung greifen.",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "2.b",
+     "art": "Empfehlung",
+     "inhalt": "Planung von Grün- und Sportanlagen, Friedhöfen und Erholungsgebieten bis zur Entwurfsplanung, soweit es sich um Maßnahmen von bezirklicher Bedeutung handelt.",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "2.c",
+     "art": "Empfehlung",
+     "inhalt": "Planung von wasserbaulichen Maßnahmen von bezirklicher Bedeutung",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "2.d",
+     "art": "Empfehlung",
+     "inhalt": "Aufstellung und Fortschreibung von Denkmalpflegeplänen, deren Bedeutung nicht über den Stadtbezirk hinausgeht (§ 30 DSchG NRW)",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "2.e",
+     "art": "Empfehlung",
+     "inhalt": "Planungen ab Entwurfsplanung und Ausführung städtischer Hochbaumaßnahmen von bezirklicher Bedeutung (außer Maßnahmen des SGB)",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "2.f",
+     "art": "Empfehlung",
+     "inhalt": "Planungen ab der Entwurfsplanung und die Ausführung städtischer Tiefbaumaßnahmen sowie von Grün- und Sportanlagen, Friedhöfen, Spiel- und Bolzplätzen und Erholungsgebieten, soweit es sich um Maßnahmen von bezirklicher Bedeutung handelt.",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "3.1",
+     "art": "Entscheidung",
+     "inhalt": "Beratung über die die Voraussetzungen, Kriterien und Teilnahmebendigungen für städtebauliche, architektonischen oder das Stadtbild betreffende Wettbewerbe und ihre jeweiligen Ausschreibungen - einschließlich derjenigen bei vorhabenbezogenen Bebauungsplänen - und der Besetzung der Sachpreisrichter:innen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Entscheidung",
+     "inhalt": "Entscheidung über das Beteiligungsverfahren nach § 3 Absatz 1 BauGB, sofern die Zuständigkeit nicht gemäß § 7 Absatz 3 der Anlage 2 zu § 3 der Hauptsatzung (Bezirkssatzung) auf die Bezirksvertretung übertragen wurde",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Entscheidung",
+     "inhalt": "Grundsatzangelegenheiten der Kommunalen Denkmalpflege (§ 30 DSchG) in der Stadt Bonn",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Entscheidung",
+     "inhalt": "Konzeption und Denkmalpflegerichtlinien für besondere Bereiche, wie Friedhofs- und Parkanlagen, Industriedenkmäler usw., sowie Aufstellung und Fortschreibung von Denkmalpflegeplänen gem. § 30 Abs. 4 DSchG",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.5",
+     "art": "Entscheidung",
+     "inhalt": "Entscheidung über gesamtstädtische sowie regionale Planungs- und Entwicklungsgrundlagen sowie verfahrensleitende Beschlüsse für diese, soweit sie nicht Konzepte gem. § 1 (6) Ziff. 11 BauGB betreffen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.6",
+     "art": "Entscheidung",
+     "inhalt": "Entscheidung über städtische Stellungnahmen im Rahmen der Beteiligungen gem. BauGB zu Planungen aus dem Umland",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.7",
+     "art": "Entscheidung",
+     "inhalt": "Vergabe von Honoraraufträgen für Planungen von gesamtstädtischer Bedeutung im Rahmen bestehender Haushaltsansätze, soweit es sich nicht um die Ausbauplanung konkreter Bauvorhaben handelt und nicht bereits eine Festlegung durch Rats- oder Ausschussbeschluss erfolgt ist",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.8",
+     "art": "Entscheidung",
+     "inhalt": "Verfahrensbegleitende Beteiligungen der Stadt in Verfahren der Raumordnung (Regionalplanverfahren), die Flächen der Stadt Bonn betreffen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.9",
+     "art": "Entscheidung",
+     "inhalt": "In der Bauleitplanung Beschlüsse zu allen Stufen des Bebauungsplanverfahrens, soweit sie nicht dem Rat oder anderen Gremien vorbehalten sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.10",
+     "art": "Entscheidung",
+     "inhalt": "Ziel- und vorbehaltlicher Zustimmungsbeschluss gemäß § 36a BauGB bei Vorhaben mit potenziell städtebaulicher Wirkung (Bau-Turbo Kategorie 2)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.11",
+     "art": "Entscheidung",
+     "inhalt": "Verfahrensbegleitende Beteiligungen der Stadt in Verfahren zur Änderung landesrechtlicher Vorgaben für raumordnerische Planungen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.1",
+     "art": "Mitteilung",
+     "inhalt": "Bauvorhaben, die eine wesentliche öffentliche Auswirkung in ihrer unmittelbaren Umgebung haben.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.2",
+     "art": "Mitteilung",
+     "inhalt": "Ausnahmen und Befreiungen von den Festsetzungen des örtlichen Bauplanungsrechtes, wenn die zulässige Grundfläche, die Geschossfläche, die Gesamthöhe oder ein Baukörperteil den überbaubaren Bereich wesentlich überschreitet",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.3",
+     "art": "Mitteilung",
+     "inhalt": "Abriss von Häusern von gesamtstädtischer Bedeutung, die Bestandteil der Benehmensliste sind.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.4",
+     "art": "Mitteilung",
+     "inhalt": "Abriss von Häusern von bezirklicher Bedeutung, die Bestandteil der Benehmensliste sind.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.5",
+     "art": "Mitteilung",
+     "inhalt": "Wesentliche Veränderungen an Denkmälern von gesamtstädtischer Bedeutung im Eigentum Dritter, soweit sie öffentliche Gebäude sind oder von besonderem öffentlichen Interesse sind, die Mitteilung ist auch der betroffenen Bezirksvertretung vorzulegen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.6",
+     "art": "Mitteilung",
+     "inhalt": "Wesentliche Veränderungen an Denkmälern von bezirklicher Bedeutung im Eigentum Dritter, soweit sie öffentliche Gebäude sind oder von besonderem öffentlichen Interesse sind, die Mitteilung ist auch der betroffenen Bezirksvertretung vorzulegen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.7",
+     "art": "Mitteilung",
+     "inhalt": "Eintragung von Denkmälern von bezirkslicher oder gesamtstädtischer Bedeutung in die Denkmalliste, sofern ein entsprechender Antrag des Eigentümers oder des Landschaftsverbandes abgelehnt werden soll, die Mitteilung ist auch der betroffenen Bezirksvertretung vorzulegen.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Planen, Bauen und Denkmalschutz"
+  },
+  {
+   "nr": "VIII",
+   "titel": "Ausschuss für Mobilität und Verkehr",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Mobilitätsplanung (Verkehrsentwicklungsplan)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen der Mobilitätsplanung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten des Straßenverkehrs, Vorplanung von Straßen, Wegen und Plätzen, die vollständig in Bebauungsplänen ausgewiesen sind, einschließlich Brücken, Ausgestaltung von Fußgängerbereichen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Nahverkehrsplans nach dem Gesetz über den öffentlichen Personennahverkehr NRW, Linienkonzepte und Planfeststellungsverfahren von Stadt- und Straßenbahnen sowie sonstiger spurgeführter öffentlicher Verkehrsmittel",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Planung von Maßnahmen der Wohnumfeldverbesserung und Verkehrsberuhigung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Empfehlung",
+     "inhalt": "Benennung von Haltestellen des Öffentlichen Personennahverkehrs nach Anhörung der zuständigen Bezirksvertretung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten der Verkehrslenkung, -regelung und – Überwachung, soweit sie von gesamtstädtischer Bedeutung sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.8",
+     "art": "Empfehlung",
+     "inhalt": "Fragen der Parkraumbewirtschaftung und der lokalen Verkehrskonzepte für Orts- und Stadtteile",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.9",
+     "art": "Empfehlung",
+     "inhalt": "Fragen der Parkraumbewirtschaftung und der Verkehrskonzepte für Orts- und Stadtteile, soweit sie von gesamtstädtischer Bedeutung sind.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.10",
+     "art": "Empfehlung",
+     "inhalt": "Vorplanung von Straßen usw., die nicht im B-Plänen ausgewiesen sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.a",
+     "art": "Empfehlung",
+     "inhalt": "Ausgestaltung von Fußgängerbereichen im Stadtbezirk",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "1.b",
+     "art": "Empfehlung",
+     "inhalt": "Vorplanung von Straßen, Wegen und Plätzen die vollständig in Bebauungsplänen ausgewiesen sind",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "1.c",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen der Wohnumfeldverbesserung (ausgenommen öffentliche Begegnungsstätten) und Verkehrsberuhigung, soweit nicht benachbarte Bezirke unmittelbar betroffen sind bzw. belastet werden",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "1.d",
+     "art": "Empfehlung",
+     "inhalt": "Planungen ab der Entwurfsplanung von Straßen, Wegen und Plätzen, deren Bedeutung nicht wesentlich über einen Stadtbezirk hinausgeht; dies gilt auch für Planungen auf der Grundlage von Erschließungsverträgen",
+     "an_bezirksvertretung": true
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Vorplanung von Straßen, Wegen und Plätzen, die nicht vollständig in Bebauungsplänen ausgewiesen sind, einschließlich der Abwägungsentscheidung nach § 125 Abs. 2 BauGB",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Mobilität und Verkehr"
+  },
+  {
+   "nr": "IX",
+   "titel": "Ausschuss für Soziales, Migration, Gesundheit und Senioren",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätze für die Gewährung sozialer Hilfen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen im Themenbereich Vielfalt, Soziales und Integration.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten der Gesundheitsvorsorge und der Gesundheitshilfe einschließlich Aids- und Suchthilfe.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Wohnungswesens, z.B. Empfehlungen zu (Landes-) Förderprogrammen (Neubau und Modernisierung); Angelegenheiten des Bonner Baulandmodells.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Richtlinien für die finanzielle Beteiligung der Stadt an geförderten Wohnungsbau und Wohnungsmodernisierung von Sozialwohnungen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Empfehlung",
+     "inhalt": "Gewährung von Investitionszuschüssen für Baumaßnahmen, soweit nicht andere Entscheidungsrechte bestehen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten, die die Belange von Menschen mit Behinderung betreffen, unter Berücksichtigung des Behindertenpolitischen Teilhabeplans sowie die Anerkennung und Unterstützung von Menschen mit Schwerbehinderung durch die Stadt Bonn.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.8",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen zur Wohlfahrtspflege und sozialen Arbeit als kommunale Pflichtaufgaben und ggf. für zusätzlich erforderliche Aufgaben. Verwendungsbestimmung, Freigabe und Verfolgung von Haushaltsmitteln für Maßnahmen zur Wohlfahrtspflege und sozialen Arbeit.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.9",
+     "art": "Empfehlung",
+     "inhalt": "Bereitstellen von Wohnraum, Schaffung von (gefördertem) Wohnen, Unterbringung und Betreuung von Menschen in Wohnraumnot.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.10",
+     "art": "Empfehlung",
+     "inhalt": "Sozialräumliche Planung, insbesondere auch Quartiersmanagement.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.11",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten, die die Belange von Seniorinnen und Senioren betreffen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.12",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der eigenbetriebsähnlichen Einrichtung Seniorenzentren, die nach der Betriebssatzung oder der Eigenbetriebsverordnung NRW dem Betriebsausschuss zur Vorberatung übertragen sind, insbesondere die Feststellung und Änderung des Wirtschaftsplans, die Feststellung des Jahresabschlusses die Verwendung des Jahresgewinns oder die Behandlung eines Jahresverlustes die Entlastung des Betriebsausschusses die Festsetzung neuer Pflegesätze",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.13",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzentscheidungen im Zusammenhang mit Schulassistenzen/Integrationsassistenzen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.14",
+     "art": "Empfehlung",
+     "inhalt": "Weiterentwicklung des Konzeptes Sicherheit, Ordnung und Sauberkeit.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.15",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten des Rettungswesens sowie die Bedarfsplanung für den Rettungsdienst, insbesondere unter dem Aspekt der medizinischen Notfallversorgung und der Einbindung in die lokale Gesundheitsversorgung.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.16",
+     "art": "Empfehlung",
+     "inhalt": "Der Betriebsausschuss berät den ASMG und den Stadtrat über allgemeine und neue Entwicklungen in der Begegnungskultur, Quartiersintegration, Unterbringung und Pflege von Seniorinnen und Senioren.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.17",
+     "art": "Empfehlung",
+     "inhalt": "Die Entwicklung von betrieblich relevanten Rechtsvorschriften und Förderbedingungen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Gewährung von Zuschüssen ab 5.000 € im Rahmen der Haushaltsansätze. Dies gilt auch für Investitionszuschüsse für Baumaßnahmen, soweit sie im Haushalt im Einzelfall veranschlagt sind.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Angelegenheiten der eigenbetriebsähnlichen Einrichtung Seniorenzentren, die nach der Betriebssatzung oder der Eigenbetriebsverordnung NRW dem Betriebsausschuss zur Entscheidung übertragen sind, insbesondere -die Beauftragung einer Wirtschaftsprüferin oder eines Wirtschaftsprüfers oder einer Wirtschaftsprüfungsgesellschaft für den Jahresabschluss -die Entlastung der Betriebsleitung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Entscheidung",
+     "inhalt": "Der ASMGWS als Betriebsausschuss entscheidet in den Angelegenheiten, die der Beschlussfassung des Rates unterliegen, falls die Angelegenheit keinen Aufschub duldet. In Fällen äußerster Dringlichkeit kann die Oberbürgermeisterin bzw. der Oberbürgermeister mit der oder dem Vorsitzenden des Betriebsausschusses entscheiden.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Entscheidung",
+     "inhalt": "Der Sozialausschuss ist Vergabeausschuss im Sinne der Vergabeordnung.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Mitteilung",
+     "inhalt": "Angelegenheiten sozialer Stiftungen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Mitteilung",
+     "inhalt": "Angelegenheiten der sozialen Sicherung/Sozialhilfe SGB XII, der örtlichen und überörtlichen Eingliederungshilfe, der Grundsicherung im Alter und bei Erwerbsminderung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Mitteilung",
+     "inhalt": "Controlling des Sozialhaushaltes und Beobachtung der Kostenentwicklung und –steuerung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Mitteilung",
+     "inhalt": "Über alle wichtigen Angelegenheiten die gemeindliche Entwicklung betreffend ist er von der Oberbürgermeisterin oder dem Oberbürgermeister zu unterrichten.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.5",
+     "art": "Mitteilung",
+     "inhalt": "Der Betriebsleitung obliegt eine umfassende Unterrichtungspflicht gegenüber dem Sozialausschuss bezogen auf alle betrieblichen Angelegenheiten, insbesondere auch über die beabsichtigte Geschäftspolitik und andere grundsätzliche Fragen der Unternehmensplanung sowie vierteljährlich über die Entwicklung der Erträge und Aufwendungen im Rahmen von Controllingberichten.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.6",
+     "art": "Mitteilung",
+     "inhalt": "Mitteilung über die Prüfergebnisse der Prüf- und Beratungsbehörde nach dem Wohn- und Teilhabegesetz NRW.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Soziales, Migration, Gesundheit, Wohnen und Senioren"
+  },
+  {
+   "nr": "X",
+   "titel": "Ausschuss für Umwelt, Klima und Lokale Agenda",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Anhörung",
+     "inhalt": "Angelegenheiten der Lokalen Agenda",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Anhörung",
+     "inhalt": "Für folgende Vorhaben erhält der Ausschuss für Umwelt und Verbraucherschutz, Klima und Lokale Agenda ein Anhörungsrecht, sofern umweltrelevante Belange berührt werden: Raumordnung (Landesentwicklungsplan, Regionalplan) Planfeststellungsverfahren Flächennutzungsplan Städtebauliche Rahmenpläne, insbesondere städtebauliche Entwicklungskonzepte und sonstige städtebauliche Planungen i.S.d. § 1 Abs. 6 Nr. 11 BauGB Bebauungspläne (anlässlich Zielbeschluss und Offenlage) Verkehrsplanungen und -maßnahmen Energieversorgung Industrie- und Gewerbeansiedlung Änderung und Ergänzung umweltbedeutsamer Vorschriften Grundsatzfragen der Lebensmittelüberwachung Angelegenheiten des Lärmschutzes (insbesondere der Fortführung des Lärmminderungsplanes) Maßnahmen des Hochwasserschutzes Abwasserbehandlung Ziel- und vorbehaltlicher Zustimmungsbeschluss gemäß § 36a BauGB bei Vorhaben mit potenziell städtebaulicher Wirkung (Bau-Turbo Kategorie 2) sowie Zustimmungsbeschluss gemäß § 36a BauGB bei planungsbedürftigen Vorhaben (Bau-Turbo Kategorie 3)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Anhörung",
+     "inhalt": "Kriterien für die ökologische Pflege von Grünflächen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Empfehlung",
+     "inhalt": "Aufgaben nach dem Naturschutzrecht auf Bundes- und Landesebene einschließlich der Aufstellung und Änderung von Landschaftsplänen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Empfehlung",
+     "inhalt": "Veterinärwesen, Tierschutz und Verbraucherschutz",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten der Baumsatzung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Empfehlung",
+     "inhalt": "Vorplanung von wasserbaulichen Maßnahmen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Empfehlung",
+     "inhalt": "Planung von Grün- und Sportanlagen, Friedhöfen und Erholungsgebieten von gesamtstädtischer Bedeutung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Empfehlung",
+     "inhalt": "Anpassung des Abfallwirtschaftskonzeptes an neue Gegebenheiten",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Empfehlung",
+     "inhalt": "Projekte und Planungen, die der Umsetzung der Agenda 21 dienen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzfragen und konzeptionelle Angelegenheiten der Planung, der Gestaltung und der Unterhaltung aller Freiflächen der Stadt Bonn die landschaftsgestalterisch, landschaftspflegerisch, gärtnerisch, baumpflegerisch, forstwirtschaftlich oder landwirtschaftlich zu bewirtschaften sind. Hierzu zählen: Städtische Waldflächen, städtische Grünanlagen und Ausgleichsflächen, allgemeine städtische Liegenschaften, Außenanlagen aller städtischen Gebäude und Einrichtungen, Sportanlagen, Spiel- und Bolzplätze, Verkehrsgrün und die Friedhöfe sowie Naturdenkmäler.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.9",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzfragen des Klimaschutzes und der Klimaanpassung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.10",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der Naturdenkmäler",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.11",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten zur wassersensiblen Stadt, Regenwassermanagement, blaue Infrastruktur",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.12",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Bodenschutzes",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.13",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Umweltschutzes und der Nachhaltigkeit im Bereich des Beschaffungswesens und bei der Durchführung von Bauaufgaben",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.14",
+     "art": "Empfehlung",
+     "inhalt": "Ausgleichsmaßnahmen bei Planungs- und Baubeschlüssen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.15",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Satzungs- und Gebührenrechts für die Stadtreinigung und Abfallbeseitigung (sofern die Beschlusskompetenz beim Rat liegt)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Entscheidung",
+     "inhalt": "Programme und Maßnahmen zur Verringerung der Umweltbelastung mit Ausnahme ordnungsbehördlicher Maßnahmen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Entscheidung",
+     "inhalt": "Die Behandlung von Grundsatzfragen des Umwelt- und Verbraucherschutzes",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Entscheidung",
+     "inhalt": "Die Erhebung von grundlegenden Umweltinformationen, z.B. durch die Aufstellung von Messprogrammen sowie die Erstellung und Auswertung von Katastern und Plänen über Umweltbelastungen, sofern es sich nicht um Bauleitplanungen handelt",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Entscheidung",
+     "inhalt": "Besondere Themenschwerpunkte zur Öffentlichkeitsarbeit mit dem Ziel, das Umweltbewusstsein zu fördern",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.5",
+     "art": "Entscheidung",
+     "inhalt": "Grundsatzentscheidungen zu Abfall- und Kreislaufwirtschaft Dies gilt nicht für das operative Geschäft der bonnorange AöR zur Erfüllung der sich aus der Unternehmenssatzung ergebenden und vom Rat zur Wahrnehmung im eigenen Namen und in eigener Verantwortung übertragenen Aufgaben.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.6",
+     "art": "Entscheidung",
+     "inhalt": "Die Umsetzung von vorgezogenen Kompensationsmaßnahmen im Rahmen des städtischen Ökokontos.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.7",
+     "art": "Entscheidung",
+     "inhalt": "Forstwirtschaftspläne und Umweltverträglichkeit in Angelegenheiten der Waldnutzung.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.8",
+     "art": "Entscheidung",
+     "inhalt": "Gewährung von Zuschüssen an Umweltverbände/Biologische Station/Verbraucherberatungsstelle und Energieberatung.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.9",
+     "art": "Entscheidung",
+     "inhalt": "Kriterien für die nachhaltige Pflege und Entwicklung von Grünflächen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.10",
+     "art": "Entscheidung",
+     "inhalt": "Erstellung eines Zeit-, Ziel- und Maßnahmenplanes zur Umsetzung der Lokalen Agenda und zur Umsetzung der Sustainable Development Goals (SDG).",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.11",
+     "art": "Entscheidung",
+     "inhalt": "Entscheidung über das Einholen von Gutachten in Angelegenheiten, die in der Entscheidungskompetenz des Ausschusses liegen, im Rahmen bestehender Haushaltsansätze.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Umwelt, Klima und Lokale Agenda"
+  },
+  {
+   "nr": "XI",
+   "titel": "Betriebsausschuss SGB",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Kriterien für die ökologische Pflege von Grünflächen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der eigenbetriebsähnlichen Einrichtung Städtisches Gebäudemanagement (SGB), die nach der Betriebssatzung dem Betriebsausschuss zur Vorberatung übertragen sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Angelegenheiten des SGB, die nach der Betriebssatzung dem Betriebsausschuss zur Entscheidung übertragen sind",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Betriebsausschuss SGB"
+  },
+  {
+   "nr": "XII",
+   "titel": "Kulturausschuss",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Anhörung",
+     "inhalt": "Integrierte Stadtentwicklungskonzepte (ISEK)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Anhörung",
+     "inhalt": "Entscheidungen zu sonstigen baulichen Maßnahmen, die den Kulturbereich betreffen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der städtischen Kultureinrichtungen: Beethoven-Orchester Bonn Kunstmuseum Bonn Stadtarchiv und stadthistorische Bibliothek Gedenkstätte Stadtmuseum Bonn Musikschule Stadtbibliothek Volkshochschule",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Empfehlung",
+     "inhalt": "Förderung sonstiger kultureller Einrichtungen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Empfehlung",
+     "inhalt": "Gewährung von Investitionszuschüssen für Baumaßnahmen, soweit nicht Entscheidungsrechte bestehen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Empfehlung",
+     "inhalt": "Erwerb von Kunstwerken für das Städt. Kunstmuseum mit einem Wert von über 50.000 €, wenn über den Ankauf unterschiedliche Auffassungen zwischen der Oberbürgermeisterin/dem Oberbürgermeister und der Leitung des Kunstmuseums bestehen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der eigenbetriebsähnlichen Einrichtung „Theater der Bundesstadt Bonn“, die nach der Satzung für das Theater der Bundesstadt Bonn dem Kulturausschuss zur Vorberatung übertragen sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.6",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätze, Ziele, Konzepte und Handlungsfelder einer nachhaltigen Kulturentwicklung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.7",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätze, Ziele und Konzepte für Kunst im öffentlichen Raum, sowie deren Umsetzung, insbesondere Standortbestimmung, Auswahl- bzw. Wettbewerbsverfahren und Aufstellung von Kunstwerken",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.8",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätze, Ziele und Konzepte für Erinnerungskultur und deren Umsetzung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Entscheidung",
+     "inhalt": "Erwerb von Kunstwerken für das Städt. Kunstmuseum mit einem Wert bis zu 50.000 €, wenn über den Ankauf unterschiedliche Auffassungen zwischen der Oberbürgermeisterin/dem Oberbürgermeister und der Leitung des Kunstmuseums bestehen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Entscheidung",
+     "inhalt": "Gewährung von Investitionszuschüssen ab 5.000 €, soweit sie im Haushalt im Einzelfall veranschlagt sind",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Entscheidung",
+     "inhalt": "Angelegenheiten der eigenbetriebsähnlichen Einrichtung „Theater der Bundesstadt Bonn“, die nach der Satzung für das Theater der Bundesstadt Bonn dem Kulturausschuss zur Entscheidung übertragen sind.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Kulturausschuss"
+  },
+  {
+   "nr": "XIII",
+   "titel": "Rechnungsprüfungsausschuss",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Prüfung des Jahresabschlusses und des Gesamtabschlusses",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Entgegennahme und Behandlung von Prüfungsberichten gem. § 11 Rechnungsprüfungsordnung bzw. gem. § 12 Rechnungsprüfungsordnung im Falle der Vorberatung für den Rat",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Entscheidung über Meinungsverschiedenheiten zwischen dem RPA und den Verwaltungsdienststellen gem. § 13 Rechnungsprüfungsordnung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Erteilung von Prüfungsaufträgen an das RPA gem. § 2 Abs. 4 Rechnungsprüfungsordnung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Entscheidung",
+     "inhalt": "Entgegennahme und Behandlung von Prüfungsberichten gem. § 12 Rechnungsprüfungsordnung",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Rechnungsprüfungsausschuss"
+  },
+  {
+   "nr": "XIV",
+   "titel": "Schulausschuss",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Aufgaben nach den schulrechtlichen Vorschriften, insbesondere Errichtung, Änderung und Zusammenlegung von Schulsystemen, Abgrenzung von Schulbezirken",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Offene Ganztagsschulen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Benennung (Namensgebung) von Schulen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Grundsatzentscheidungen im Zusammenhang mit Schulassistenzen/Integrationsassistenzen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Schulentwicklungsplanung (Grundschulen, weiterführende Schulen)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Empfehlung",
+     "inhalt": "Maßnahmen der schulischen Digitalisierung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Empfehlung",
+     "inhalt": "Beratung von Schulbaumaßnahmen vor der Behandlung im Betriebsausschuss SGB",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.8",
+     "art": "Empfehlung",
+     "inhalt": "Bau, Unterhaltung und Sanierung von Schulgebäuden- und anlagen inkl. Außenanlagen und Schulsportplätzen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Quartalsberichte/Monitoring zur Umsetzung schulischer Baumaßnahmen",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Stellenbesetzungen von Schulleitungen an städtischen Schulen durch die Bezirksregierung Köln",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Schulausschuss"
+  },
+  {
+   "nr": "XV",
+   "titel": "Sportausschuss",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Anhörung",
+     "inhalt": "Integrierte Stadtentwicklungskonzepte (ISEK)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der städtischen Sportanlagen und Bäder, insbesondere Umbau, Sanierung und Umgestaltung Festsetzung von Entgelten zur Nutzung von Sportanlagen und Bädern Haus- und Benutzungsordnungen für Sportanlagen und Bäder",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Empfehlung",
+     "inhalt": "Beantragung von Fördermitteln für Sportanlagen und Bäder",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätze, Ziele und Handlungsfelder einer nachhaltigen Sportentwicklung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.4",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten der Sportförderung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.5",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten von (informellen) Sport- und Bewegungsgelegenheiten im öffentlichen Raum",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Entscheidung",
+     "inhalt": "Gewährung von Zuschüssen im Rahmen der Sportförderrichtlinien, soweit hierüber nicht die Verwaltung entscheidet.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Entscheidung",
+     "inhalt": "Ausnahmen von der Entgeltpflicht für die sportliche Benutzung der Bonner Sportstätten, soweit hierüber nicht die Verwaltung entscheidet",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Entscheidung",
+     "inhalt": "Sanierung, Modernisierung und Vorentwurfsplanung für die Außenanlagen für Sportpark Nord und Sportpark Pennenfeld.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Entscheidung",
+     "inhalt": "Verleihung des Ehrenpreises „Bonner Sport“",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.5",
+     "art": "Entscheidung",
+     "inhalt": "Mitgliedschaften in Sportverbänden und Arbeitsgemeinschaften",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.6",
+     "art": "Entscheidung",
+     "inhalt": "Haus- und Benutzungsordnungen für Sportanlagen und Bäder",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Sportausschuss"
+  },
+  {
+   "nr": "XVI",
+   "titel": "Ausschuss für Digitalisierung, Dienstleistung und Verwaltungsmodernisierung",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Technische und soziale Innovationen und ihren Beitrag für Handlungsfelder einer integrierten Stadtentwicklung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Mitberatung über Grundsatzentscheidungen zum Einsatz von digitalen Hilfsmitteln in allen Bereichen der Verwaltung; bei strategischer oder gesamtstädtischer Bedeutung, insbesondere bei Auswirkungen auf mehrere Organisationseinheiten oder zentrale Systeme, erfolgt eine Beschlussfassung durch den Ausschuss.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Beratung und Beschlussfassung über die Open Data- und Open Government-Strategie der Stadt Bonn.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Mitberatung bei Angelegenheiten, die die Modernisierung der Verwaltungsstruktur und der Verwaltungsprozesse betreffen, insbesondere in Bezug auf die Verbesserung von Effizienz, Serviceorientierung und Arbeitsabläufen innerhalb der Stadtverwaltung und deren Auswirkungen auf die digitale Transformation der Stadtverwaltung. Dies gilt auch für Angelegenheiten gemäß Ziffer 2.8 der neuen Zuständigkeitsordnung des Hauptausschusses.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Mitberatung von Grundsatzfragen zur Qualität, Organisation und Weiterentwicklung der städtischen Dienstleistungen gegenüber Bürgerinnen und Bürgern, einschließlich der Serviceangebote des Dienstleistungszentrums sowie Maßnahmen zur Verbesserung von Erreichbarkeit, Terminverfügbarkeit und Servicequalität.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Beschluss über Strategiepapiere im Rahmen der digitalen Transformation der Stadtverwaltung",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.2",
+     "art": "Entscheidung",
+     "inhalt": "Regelmäßige Beratung und Überprüfung der Strategiepapiere im Rahmen der digitalen Transformation, Treffen von Änderungsbeschlüssen bei Anapssungsbedarf.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.3",
+     "art": "Entscheidung",
+     "inhalt": "Der Ausschuss entscheidet über strategisch bedeutsame IT- und Digitalisierungsprojekte der Stadtverwaltung vor deren Umsetzung. Als strategisch bedeutsam gelten insbesondere Projekte mit erheblicher finanzieller Bedeutung, sowie Projekte mit grundsätzlicher Auswirkung auf die IT-Architektur oder zentrale IT-Systeme. Ebenfalls erfasst sind Vorhaben mit Auswirkungen auf mehrere Organisationseinheiten oder die Gesamtverwaltung sowie Projekte mit wesentlicher Bedeutung für die digitale Transformation der Verwaltung. Dies gilt auch für Maßnahmen der schulischen Digitalisierung im Sinne der Ziffern 1.5 und 1.6 der neuen Zuständigkeitsordnung des Schulausschusses, insbesondere sofern diese eine übergreifende IT-Infrastruktur, zentrale Systeme oder gesamtstädtische Standards betreffen. In diesen Fällen erfolgt eine Beteiligung des Ausschusses für Digitalisierung, Dienstleistung und Verwaltungsmodernisierung im Wege der Mitberatung.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Mitteilung",
+     "inhalt": "Mitteilung über Vorhaben der Wirtschaftsförderung im Zusammenhang mit der Ansiedlung und Förderung von Unternehmen und Start-Ups aus dem IT-Sektor",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.2",
+     "art": "Mitteilung",
+     "inhalt": "Information über Tätigkeiten der Stadt Bonn innerhalb von Initiativen/Gremien zur Digitalisierung/Digitalen Transformation von Gesellschaft und Wirtschaft",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.3",
+     "art": "Mitteilung",
+     "inhalt": "Regelmäßige Berichte über den Stand der insgesamten Digitalisierung der Verwaltung, sowie gesammelte Abschluss- und Ergebnisberichte zu LADT-Projekten und größeren IT- und Digitalisierungsprojekten/-vorhaben. Die Berichte enthalten standardisierte Kennzahlen zur Zielerreichung, insbesondere zu Nutzungszahlen digitaler Angebote, Verfahrenslaufzeiten, Effizienzgewinnen und Umsetzungsständen zentraler Digitalisierungsprojekte. Sie umfassen zudem eine regelmäßige Darstellung des Umsetzungsstands der Anforderungen des Onlinezugangsgesetzes (OZG) sowie vergleichbarer gesetzlicher Vorgaben zur Verwaltungsdigitalisierung.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.4",
+     "art": "Mitteilung",
+     "inhalt": "Regelmäßige Information über (Bau-)Anträge bzw. Aufbruchgenehmigungen sowie ggf. den Einsatz alternativer Verlegemethoden in Zusammenhang mit dem Breitband/Gigabit-Ausbau und der jeweils hierfür benötigten Infrastruktur (z. B. Bauanträge für Mobilfunksendemasten, Aufbruchgenehmigungen zur Verlegung von LWL zum Zwecke des Breitbandanschlusses (nicht Anschluss von Lichtsignalanlagen))",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.5",
+     "art": "Mitteilung",
+     "inhalt": "Regelmäßige Information über Anträge zur Mitnutzung passiver Infrastruktur gem. §§ 77d ff. TKG sowie zur Koordinierung von Bauarbeiten und Mitverlegung mit den Anbietern von Telekommunikationsinfrastruktur gem. § 77h TKG",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.6",
+     "art": "Mitteilung",
+     "inhalt": "Regelmäßige, zusammengefasste Information über die IT-Sicherheitslage der Stadtverwaltung, einschließlich wesentlicher (insbesondere meldepflichtiger bzw. gemeldeter) IT-Sicherheitsvorfälle und ergriffener Maßnahmen.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.7",
+     "art": "Mitteilung",
+     "inhalt": "Die Verwaltung informiert den Ausschuss regelmäßig über IT-Beschaffungen und Vergabeverfahren. Hierzu zählen insbesondere Beschaffungen mit erheblichem finanziellem Volumen, sowie die Einführung oder der Wechsel zentraler IT-Systeme, Plattformen oder Fachverfahren. Ebenfalls umfasst sind Vorhaben mit langfristigen vertraglichen Bindungen oder wesentlichen Auswirkungen auf die IT-Architektur oder IT-Sicherheit der Stadtverwaltung.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Digitalisierung, Dienstleistung und Verwaltungsmodernisierung"
+  },
+  {
+   "nr": "XVII",
+   "titel": "Ausschuss für Sicherheit, Ordnung und Bevölkerungsschutz",
+   "rechte": [
+    {
+     "nr": "1.1",
+     "art": "Empfehlung",
+     "inhalt": "Bedarfsplanung für Brandschutz, Rettungsdienst und Katastrophenschutz unter Mitberatung des Ausschuss für Soziales, Migration, Gesundheit, Wohnen und Senioren für den Bereich Rettungsdienst",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.2",
+     "art": "Empfehlung",
+     "inhalt": "Angelegenheiten des Satzungs- und Gebührenrechts für Feuerwehr und Rettungsdienst",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.3",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten und Schutzpläne in Bezug auf Hochwasser und Starkregenmanagement",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.4",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten von Satzungen und ordnungsbehördlichen Verordnungen mit ordnungsrechtlichem Bezug",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.5",
+     "art": "Empfehlung",
+     "inhalt": "Weiterentwicklung des Konzeptes Sicherheit, Ordnung und Sauberkeit",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.6",
+     "art": "Empfehlung",
+     "inhalt": "Grundsätzliche Angelegenheiten der Krisenvorsorge (bspw. KRITIS, Ausfallszenarien, BCM,...)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.7",
+     "art": "Empfehlung",
+     "inhalt": "Grundlegende Angelegenheiten zur Kriminalprävention",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.8",
+     "art": "Empfehlung",
+     "inhalt": "Grundlegende Angelegenheiten der öffentlichen Sicherheit und Ordnung im Zusammenhang mit der Stadt Bonn",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.9",
+     "art": "Empfehlung",
+     "inhalt": "Grundlegende Angelegenheiten im Zusammenhang der Zivilen Verteidigung im Zusammenhang mit der Stadt Bonn",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.10",
+     "art": "Empfehlung",
+     "inhalt": "Zum Thema Abfall- und Entsorgungswirtschaft (Müll, Abwasser, etc.)",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "1.11",
+     "art": "Empfehlung",
+     "inhalt": "Gemäß § 76 des Schulgesetz NRW wirken Schulen und Schulträger bei der Schulwegsicherung zusammen. Die Stadt Bonn trägt damit eine Mitverantwortung für die Sicherheit von Schulwegen. Kinder sind eine vulnerable Gruppe, die es besonderes zu schützen gilt. So kommt u.a. der Verkehrssicherheit eine besondere Aufgabe zu. Deshalb soll der Ausschuss zu entsprechend relevanten Punkten für die Sicherheit von Schulwegen beraten und Empfehlungen beschließen können.",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "2.1",
+     "art": "Entscheidung",
+     "inhalt": "Grundsätzliche Angelegenheiten des Feuerschutz- und Rettungswesens unter Mitberatung des Ausschuss für Soziales, Migration, Gesundheit, Wohnen und Senioren für den Bereich Rettungswesen. Die Entscheidungskompetenz gilt, soweit nicht nach § 41 Abs. 1 Satz 2 GO NRW ausschließlich der Rat zuständig ist, sich aus der Zuständigkeitsordnung nichts anderes ergibt oder es sich um ein Geschäft der laufenden Verwaltung (§ 41 Abs. 3 GO NRW) handelt. In den Fällen der ausschließlichen Zuständigkeit des Rates nimmt der Ausschuss eine beratende Funktion wahr und spricht eine Empfehlung an den Rat aus",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "3.1",
+     "art": "Anhörung",
+     "inhalt": "Grundlegende Angelegenheiten im Zusammenhang Sauberkeit",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.1",
+     "art": "Mitteilung",
+     "inhalt": "Mitteilung über Maßnahmen im Krisenfall und der zivilen Verteidigung unter Beachtung des Geheimschutzes",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.2",
+     "art": "Mitteilung",
+     "inhalt": "Mitteilungen zum Thema Kriminalprävention",
+     "an_bezirksvertretung": false
+    },
+    {
+     "nr": "4.3",
+     "art": "Mitteilung",
+     "inhalt": "Im Ausschuss soll über die im Polizeibeirat besprochene und berichtete Themen berichtet werden. Es ist inhaltlich unerlässlich, dass der Ausschuss für seine Arbeit darüber fortlaufend informiert wird.",
+     "an_bezirksvertretung": false
+    }
+   ],
+   "text": "",
+   "gremium": "Ausschuss für Sicherheit, Ordnung und Bevölkerungsschutz"
+  },
+  {
+   "nr": "XVIII",
+   "titel": "Alle Ausschüsse und Unterausschüsse",
+   "rechte": [],
+   "text": "Die Ausschüsse und Unterausschüsse des Rates der Bundesstadt Bonn können zu allen Angelegenheiten, die ihren Aufgabenbereich berühren und soweit es sich um Geschäfte der laufenden Verwaltung handelt, Anregungen an den Oberbürgermeister richten.",
+   "gremium": "Alle Ausschüsse und Unterausschüsse"
+  }
+ ]
+}

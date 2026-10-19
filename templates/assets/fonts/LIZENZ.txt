@@ -1,0 +1,3 @@
+Fraunces (Undercase Type) und Atkinson Hyperlegible Next (Braille Institute), beide SIL Open Font License 1.1.
+Lokal ausgeliefert (keine Anfrage an Google), Teilmengen latin und latin-ext von fonts.google.com, Stand Oktober 2026.
+Lizenztext: https://openfontlicense.org/open-font-license-official-text/

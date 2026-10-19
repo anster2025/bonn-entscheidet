@@ -1,0 +1,10 @@
+[Unit]
+Description=Bürgerseite "Bonn entscheidet": neue Vorlagen und Sitzungsergebnisse holen, Seite und Feed neu schreiben
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=@PROJEKT@
+ExecStart=@PROJEKT@/aktualisieren.sh
+TimeoutStartSec=45min

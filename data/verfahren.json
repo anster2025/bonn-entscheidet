@@ -1,0 +1,459 @@
+{
+ "hinweis": "Von Hand kuratiert. Fakten und Paragraphen aus den Vault-Notes (Wissen/Abläufe, Wissen/Ortsrecht). Liest prozess.py.",
+ "bahnen": [
+  {"id": "ew", "name": "Einwohner:innen", "kurz": "Einwohner", "farbe": "4"},
+  {"id": "rm", "name": "Fraktion · Gruppe · Stadtverordnete", "kurz": "Ratsmitglieder", "farbe": "6"},
+  {"id": "bvm", "name": "Bezirksverordnete · Bezirksfraktion", "kurz": "Bezirksverordnete", "farbe": "6"},
+  {"id": "vw", "name": "Verwaltung · Ratsbüro · OB", "kurz": "Verwaltung", "farbe": "3"},
+  {"id": "bv", "name": "Bezirksvertretung", "kurz": "BV", "farbe": "5"},
+  {"id": "aus", "name": "Ausschüsse", "kurz": "Ausschuss", "farbe": "2"},
+  {"id": "rat", "name": "Rat", "kurz": "Rat", "farbe": "1"}
+ ],
+ "akteure": [
+  {"id": "ew", "name": "Einwohner:in"},
+  {"id": "sv", "name": "einzelne:r Stadtverordnete:r"},
+  {"id": "fr", "name": "Fraktion · Gruppe"},
+  {"id": "bvm", "name": "Bezirksverordnete:r"},
+  {"id": "vw", "name": "Verwaltung · OB"}
+ ],
+ "instrumente": [
+  {"name": "Antrag", "note": "Antrag", "verfahren": "antrag-rat", "frist": "21 Tage vorher",
+   "rechte": {"sv": ["teil", "darf einreichen; Pflicht zur Aufnahme in die Tagesordnung nur mit einem Fünftel der Ratsmitglieder (§ 7 Abs. 4)"],
+              "fr": ["ja", "Anspruch auf die Tagesordnung (§§ 7 Abs. 4, 9)"],
+              "bvm": ["ja", "in der BV genügt ein Mitglied (§ 23 Abs. 3)"]}},
+  {"name": "Änderungsantrag", "note": "Änderungsantrag", "verfahren": "antrag-rat", "frist": "bis Schluss der Aussprache",
+   "rechte": {"sv": ["ja", "jedes Mitglied, auch mündlich (§ 9 Abs. 2)"], "fr": ["ja", "§ 9 Abs. 2"],
+              "bvm": ["ja", "sinngemäß in der BV (§ 23)"]}},
+  {"name": "Große Anfrage", "note": "Große Anfrage", "verfahren": "grosse-anfrage", "frist": "21 Tage vorher",
+   "rechte": {"sv": ["teil", "vier Stadtverordnete gemeinsam (§ 11 Abs. 2)"], "fr": ["ja", "§ 11 Abs. 2"],
+              "bvm": ["ja", "in der BV genügt ein Mitglied (§ 23 Abs. 3)"]}},
+  {"name": "Kleine Anfrage", "note": "Kleine Anfrage", "verfahren": "kleine-anfrage", "frist": "keine",
+   "rechte": {"sv": ["ja", "jedes Mitglied (§ 12)"], "fr": ["ja", "§ 12"], "bvm": ["ja", "auch Bezirksfraktionen (Daten)"]}},
+  {"name": "Dringlichkeitsantrag", "note": "Dringlichkeitsantrag", "verfahren": "dringlichkeitsantrag", "frist": "nach der Frist, auch in der Sitzung",
+   "rechte": {"fr": ["ja", "Gremium muss die Tagesordnung erst erweitern (§ 7 Abs. 5)"],
+              "bvm": ["ja", "sinngemäß in der BV (§ 23)"]}},
+  {"name": "Beschluss- und Mitteilungsvorlage", "note": "Beschlussvorlage", "verfahren": "beschlussvorlage", "frist": "mit der Einladung, 14 Tage vorher",
+   "rechte": {"vw": ["ja", "Fachamt schreibt, OB gibt frei (§ 10)"]}},
+  {"name": "Dringlichkeitsentscheidung", "note": "Dringlichkeitsentscheidung OB", "verfahren": "dringlichkeitsentscheidung", "frist": "ersetzt die Sitzung",
+   "rechte": {"vw": ["ja", "OB mit einem Ratsmitglied (§ 60 GO NRW)"],
+              "bvm": ["teil", "Bezirksbürgermeister:in mit einem BV-Mitglied"]}},
+  {"name": "Bürgerantrag", "note": "Anregungen und Beschwerden", "verfahren": "buergerantrag", "frist": "21 Tage vorher",
+   "rechte": {"ew": ["ja", "Einwohner:innen, auch Vereine (§ 24 GO NRW, HS § 10, GeschO § 27)"]}},
+  {"name": "Einwohnerfrage", "note": "Einwohnerfrage", "verfahren": "einwohnerfrage", "frist": "21 Tage vorher",
+   "rechte": {"ew": ["ja", "jede Person, höchstens zwei Fragen, nur in der BV (§ 26)"]}},
+  {"name": "Einwohnerantrag", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "verfahren": "einwohnerantrag", "frist": "Sachentscheidung ≤ 4 Monate",
+   "rechte": {"ew": ["teil", "mit Unterschriftenquorum (§ 25 GO NRW)"]}},
+  {"name": "Bürgerbegehren", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "verfahren": "buergerbegehren", "frist": "Prüfung ≤ 2 Monate",
+   "rechte": {"ew": ["teil", "Bürger:innen mit Unterschriftenquorum (§ 26 GO NRW)"]}}
+ ],
+ "fristen": [
+  {"t": -21, "label": "T − 21", "was": "Anträge, Große Anfragen, Bürgeranträge und Einwohnerfragen einreichen", "beleg": "GeschO §§ 7 Abs. 4, 9, 11, 26, 27"},
+  {"t": -14, "label": "T − 14", "was": "Einladung mit Tagesordnung und Vorlagen", "beleg": "GeschO § 2 Abs. 2"},
+  {"t": -8, "label": "T − 8", "was": "Nachversand: Stellungnahmen der Verwaltung, Antworten, Änderungs- und Dringlichkeitsanträge", "beleg": "GeschO §§ 9 Abs. 1, 11 Abs. 3"},
+  {"t": 0, "label": "T", "was": "Sitzung: Dringliches nur per Beschluss, Änderungsanträge bis Schluss der Aussprache", "beleg": "GeschO §§ 7 Abs. 5, 9 Abs. 2"},
+  {"t": 3, "label": "T + 3", "was": "Einspruchsfrist bei Ausschussentscheidungen", "beleg": "GeschO § 22 Abs. 7"},
+  {"t": 10, "label": "später", "was": "Niederschrift bis zur nächsten Sitzung", "beleg": "GeschO § 21 Abs. 4"}
+ ],
+ "zustaendigkeit": [
+  {"frage": "Bleibt die Sache im Stadtbezirk?", "antwort": "Die Bezirksvertretung entscheidet selbst: Verkehrsführung, bezirkliche Straßen, Spielplätze, Grün, Baumfällungen, Vereinszuschüsse, Bürgeranträge mit Bezirksbezug.", "beleg": "BezS § 7", "note": "Bezirkssatzung"},
+  {"frage": "Wirkt sie stadtweit, betrifft aber den Bezirk?", "antwort": "Rat oder Ausschuss entscheidet, die BV wird vorher angehört, z. B. bei Investitionen oder B-Plan-Offenlage.", "beleg": "BezS § 9", "note": "Anhörung"},
+  {"frage": "Hat der Rat die Sache übertragen?", "antwort": "Der Fachausschuss oder der Hauptausschuss entscheidet nach der Zuständigkeitsordnung. Der Rat kann sie im Einzelfall zurückholen.", "beleg": "ZustO; HS § 7 Abs. 2", "note": "Zuständigkeitsordnung"},
+  {"frage": "Will die BV etwas anstoßen?", "antwort": "Sie richtet eine Anregung an Rat, Ausschuss oder OB.", "beleg": "BezS § 11", "note": "Anregung"},
+  {"frage": "Geschäft der laufenden Verwaltung?", "antwort": "Die Verwaltung entscheidet allein, ohne Gremium.", "beleg": "§ 41 Abs. 3 GO NRW", "note": "Verwaltung"}
+ ],
+ "organe": [
+  {"id": "ew", "name": "Einwohner:innen", "farbe": "ew", "kurz": "Du wohnst in Bonn. Du wählst, fragst nach und bringst eigene Anliegen ein.", "macht": ["wählen alle fünf Jahre Rat, Bezirksvertretung und Oberbürgermeister:in, wenn sie kommunal wahlberechtigt sind", "stellen Fragen in der Einwohnerfragestunde der Bezirksvertretung", "reichen Bürgeranträge ein und erläutern sie im Bürgerausschuss", "starten mit Unterschriften einen Einwohnerantrag oder ein Bürgerbegehren"], "wer": "Alle Menschen, die in Bonn wohnen. Einen Bürgerantrag dürfen auch Vereine stellen. Beim Bürgerentscheid stimmt ab, wer kommunal wahlberechtigt ist und seit mindestens 16 Tagen in Bonn wohnt.", "entscheidet": "Direkt nur per Bürgerentscheid. Er wirkt wie ein Ratsbeschluss, wenn die gesetzliche Mehrheit und das Quorum erreicht sind.", "erreichen": "Sitzungen sind öffentlich. Ratssitzungen werden live gestreamt. Tagesordnungen und Vorlagen stehen im Ratsinformationssystem.", "beleg": "§§ 24–26, 36 Abs. 1, 42, 65 GO NRW; GeschO §§ 5, 5a, 26–28; Satzung §§ 4, 7", "note": "Beteiligungswege", "beziehungen": [{"zu": "rat", "art": "wählt", "beleg": "§ 42 GO NRW"}, {"zu": "bv", "art": "wählt", "beleg": "§ 36 Abs. 1 GO NRW"}, {"zu": "aus", "art": "stellt Anträge", "beleg": "HS § 10"}]},
+  {"id": "rat", "name": "Rat", "farbe": "rat", "kurz": "Das höchste Gremium der Stadt. Er entscheidet alles, was er nicht abgegeben hat.", "macht": ["beschließt über Anträge und Vorlagen der Verwaltung", "überträgt Aufgaben an Ausschüsse und kann sie im Einzelfall zurückholen", "beschließt Satzungen, zum Beispiel Bebauungspläne", "wählt die sechs Beigeordneten der Verwaltung"], "wer": "Die Stadtverordneten. Die Oberbürgermeisterin bzw. der Oberbürgermeister leitet die Sitzungen. Der Rat tagt mindestens alle zwei Monate.", "entscheidet": "Alles, was er nicht an Ausschüsse übertragen hat und was nicht die Bezirksvertretungen entscheiden.", "erreichen": "Ratssitzungen sind öffentlich und werden live gestreamt. Ein Anliegen bringst du über eine Fraktion oder per Bürgerantrag ein.", "beleg": "HS §§ 5–7; GeschO §§ 1, 5, 5a", "note": "Gremien/Rat", "beziehungen": [{"zu": "aus", "art": "überträgt Aufgaben", "beleg": "HS § 7 Abs. 2"}, {"zu": "ha", "art": "überträgt Aufgaben", "beleg": "ZustO I"}, {"zu": "bv", "art": "hört an", "beleg": "BezS § 9"}, {"zu": "vw", "art": "wählt Beigeordnete", "beleg": "HS § 6 Abs. 3"}]},
+  {"id": "ha", "name": "Hauptausschuss", "farbe": "aus", "kurz": "Ein besonderer Ausschuss des Rates. Duldet eine Sache keinen Aufschub, entscheidet er anstelle des Rates.", "macht": ["entscheidet Eiliges, das sonst der Rat beschließt", "stimmt die Arbeit der Ausschüsse ab und klärt im Einzelfall, wer zuständig ist", "genehmigt Empfehlungen von Bezirksvertretungen und Fachausschüssen im Rahmen des Haushalts", "prüft auf Antrag vorab, ob ein Bürgerbegehren zulässig ist"], "wer": "Ein Ausschuss des Rates. Wer Mitglied ist, steht im Ratsinformationssystem.", "entscheidet": "Eilfälle, Benennungen von Straßen und Plätzen, wenn eine Bezirksvertretung von der Liste des Rates abweichen will, und weitere Punkte aus Abschnitt I der Zuständigkeitsordnung.", "erreichen": "Über seine Sitzungen. Die Vorprüfung eines Bürgerbegehrens beantragen die Vertretenden des Begehrens.", "beleg": "ZustO I 2.1–2.13; HS § 10a; Satzung § 3 Abs. 5", "note": "Hauptausschuss", "beziehungen": [{"zu": "rat", "art": "vertritt im Eilfall", "beleg": "ZustO I 2.1"}]},
+  {"id": "aus", "name": "Fachausschüsse", "farbe": "aus", "kurz": "Ausschüsse des Rates für ein Thema, etwa Verkehr, Planen oder Umwelt. Sie bereiten Entscheidungen vor.", "macht": ["beraten Vorlagen vor und geben dem Rat eine Empfehlung", "entscheiden selbst, wenn der Rat ihnen die Sache übertragen hat", "der Bürgerausschuss berät Bürgeranträge von stadtweiter Bedeutung"], "wer": "Ausschüsse des Rates, zum Beispiel für Mobilität und Verkehr oder für Planen, Bauen und Denkmalschutz. Sie können Sachverständige und Einwohner:innen hinzuziehen.", "entscheidet": "Was ihnen die Zuständigkeitsordnung überträgt. Ihr Beschluss darf erst nach drei Tagen ausgeführt werden. Bis dahin können die Oberbürgermeisterin bzw. der Oberbürgermeister oder ein Fünftel der Mitglieder Einspruch einlegen.", "erreichen": "Sitzungen sind öffentlich, außer zum Beispiel bei Grundstücks- und Personalsachen. Bürgeranträge von stadtweiter Bedeutung gehen an den Ausschuss für Beteiligung der Bürgerinnen und Bürger (Bürgerausschuss).", "beleg": "ZustO; GeschO §§ 5, 22 Abs. 3 und 7; HS § 10", "note": "Ratsgremien", "beziehungen": [{"zu": "rat", "art": "empfiehlt", "beleg": "ZustO"}]},
+  {"id": "bv", "name": "Bezirksvertretungen", "farbe": "bv", "kurz": "Vier gewählte Vertretungen für die Stadtbezirke Bonn, Bad Godesberg, Beuel und Hardtberg.", "macht": ["entscheiden, was im Bezirk bleibt: Verkehrsführung, Spielplätze, Grün, Baumfällungen, Vereinszuschüsse", "werden vorher angehört, wenn Rat oder Ausschuss über den Bezirk entscheiden", "empfehlen dem Rat zum Beispiel den Beschluss von Bebauungsplänen", "regen beim Rat, einem Ausschuss oder der Oberbürgermeisterin bzw. dem Oberbürgermeister etwas an"], "wer": "Je 19 Bezirksverordnete, dazu können Ausgleichssitze kommen. Sie wählen eine Bezirksbürgermeisterin bzw. einen Bezirksbürgermeister. Die vier Bezirke: Bonn, Bad Godesberg, Beuel, Hardtberg.", "entscheidet": "Angelegenheiten, deren Bedeutung nicht wesentlich über den Stadtbezirk hinausgeht, im Rahmen der Haushaltsmittel des Rates.", "erreichen": "Einwohnerfrage bis 21 Tage vor der Sitzung, Bürgerantrag mit Bezug zum Bezirk, Bezirksverordnete ansprechen. Die Bezirksverwaltungsstelle ist auch Bürgerberatungsstelle.", "beleg": "BezS §§ 1–4, 7–11, 14; GeschO § 26; HS § 10 Abs. 4", "note": "Bezirksvertretungen", "beziehungen": [{"zu": "rat", "art": "empfiehlt · regt an", "beleg": "BezS §§ 8, 11"}]},
+  {"id": "vw", "name": "Oberbürgermeister:in & Verwaltung", "farbe": "vw", "kurz": "Die Stadtverwaltung bereitet fast alle Vorlagen vor und setzt die Beschlüsse um.", "macht": ["schreibt Beschluss- und Mitteilungsvorlagen und Stellungnahmen", "setzt die Tagesordnung fest und lädt ein (Oberbürgermeister:in)", "setzt Beschlüsse um und hält den Stand in der Beschlusskontrolle fest", "erledigt Geschäfte der laufenden Verwaltung allein"], "wer": "Oberbürgermeister Guido Déus leitet Rat und Verwaltung. Dazu kommen die Beigeordneten, die der Rat wählt, und die Fachämter in sechs Dezernaten.", "entscheidet": "Geschäfte der laufenden Verwaltung, ohne Gremium. Im Eilfall entscheidet die Oberbürgermeisterin bzw. der Oberbürgermeister mit einem Ratsmitglied anstelle des Rates. Einem Ratsbeschluss kann sie bzw. er widersprechen.", "erreichen": "Fragen an die Verwaltung stellst du als Einwohnerfrage in der Bezirksvertretung. Beim Einwohnerantrag berät die Verwaltung. Bezirksverwaltungsstellen sind Bürgerberatungsstellen.", "beleg": "HS § 6; GeschO §§ 2, 10, 19; § 41 Abs. 3 GO NRW; § 60 GO NRW; BezS § 14", "note": "Verwaltung", "beziehungen": [{"zu": "rat", "art": "bereitet vor · setzt um", "beleg": "GeschO § 10"}, {"zu": "bv", "art": "bereitet vor", "beleg": "BezS § 14"}]},
+  {"id": "fr", "name": "Fraktionen & Gruppen", "farbe": "rm", "kurz": "Zusammenschlüsse von Ratsmitgliedern. Sie bringen die meisten politischen Anträge ein.", "macht": ["stellen Anträge, Änderungsanträge und Anfragen", "haben Anspruch darauf, dass ihr Antrag auf die Tagesordnung kommt", "können eine Ratssitzung verlangen"], "wer": "Ratsmitglieder mit Fraktionsstatus. Gruppen sind dafür zu klein. In den Bezirksvertretungen gibt es Bezirksfraktionen mit mindestens zwei Mitgliedern.", "entscheidet": "Nichts allein. Ihre Mitglieder stimmen im Rat und in den Ausschüssen ab.", "erreichen": "Sprich eine Fraktion an, wenn du ein Thema in den Rat bringen willst. Sie kann daraus einen Antrag machen.", "beleg": "GeschO §§ 1, 7 Abs. 4, 9, 11, 23 Abs. 2", "note": "Fraktion", "beziehungen": [{"zu": "rat", "art": "stellt Anträge", "beleg": "GeschO § 9"}]},
+  {"id": "beirat", "name": "Beiräte", "farbe": "beirat", "kurz": "Beratende Gremien, zum Beispiel für Bürgerbeteiligung oder Naturschutz. Sie entscheiden nicht.", "macht": ["beraten Bürgerausschuss, Bezirksvertretungen und Fachausschüsse", "beraten Beteiligungsverfahren vor", "der Beirat Kinder- und Jugendbeteiligung darf Anträge an die Fachausschüsse stellen"], "wer": "Gewählte und berufene Mitglieder. Im Beirat Bürgerbeteiligung sitzen Einwohner:innen, Politik und Verwaltung.", "entscheidet": "Nichts verbindlich. Sie haben meist nur Anhörungsrechte.", "erreichen": "Über die Abteilung Bürgerbeteiligung der Verwaltung. Sie führt die Geschäfte der Beiräte.", "beleg": "GeschO § 24a; Leitlinien", "note": "Beiräte und Kommissionen", "beziehungen": [{"zu": "aus", "art": "regt an", "beleg": "GeschO § 24a"}]}
+ ],
+ "buerger": {
+  "antrag-rat": {"wer": ["sv", "fr"], "ziel": "anstossen", "ebene": "stadt", "mitwirken": [{"was": "Sprich eine Fraktion oder Gruppe an. Ihr Antrag muss auf die Tagesordnung.", "frist": "21 Tage vor der Ratssitzung", "beleg": "GeschO §§ 7 Abs. 4, 9", "note": "Antrag"}, {"was": "Verfolge die Ratssitzung vor Ort oder im Livestream.", "frist": "am Sitzungstag", "beleg": "GeschO §§ 5, 5a", "note": "Sitzungsablauf"}, {"was": "Bring dein Anliegen selbst ein: als Bürgerantrag.", "frist": "21 Tage vor der Sitzung", "beleg": "§ 24 GO NRW, GeschO § 27", "note": "Anregungen und Beschwerden"}]},
+  "grosse-anfrage": {"wer": ["sv", "fr", "bvm"], "ziel": "fragen", "ebene": "beides", "mitwirken": [{"was": "Hör dir die Antwort in der Fragestunde vor der Sitzung. Sie steht danach auch in der Niederschrift.", "frist": "am Sitzungstag", "beleg": "GeschO §§ 11 Abs. 1, 21", "note": "Große Anfrage"}, {"was": "Stell selbst eine Frage in der Einwohnerfragestunde der Bezirksvertretung.", "frist": "21 Tage vor der Sitzung", "beleg": "GeschO § 26", "note": "Einwohnerfrage"}]},
+  "kleine-anfrage": {"wer": ["sv", "fr", "bvm"], "ziel": "fragen", "ebene": "beides", "mitwirken": [{"was": "Eine Kleine Anfrage stellen nur Mitglieder. Bitte ein Ratsmitglied oder Bezirksverordnete darum.", "frist": "jederzeit", "beleg": "GeschO § 12", "note": "Kleine Anfrage"}, {"was": "Stell selbst eine Frage in der Einwohnerfragestunde der Bezirksvertretung.", "frist": "21 Tage vor der Sitzung", "beleg": "GeschO § 26", "note": "Einwohnerfrage"}]},
+  "beschlussvorlage": {"wer": ["vw"], "ziel": "verstehen", "ebene": "beides", "mitwirken": [{"was": "Lies die Vorlage. Sie steht mit der Einladung im Ratsinformationssystem.", "frist": "14 Tage vor der Sitzung", "beleg": "GeschO § 2 Abs. 2", "note": "Fristen"}, {"was": "Sprich Fraktionen an. Sie können die Vorlage per Änderungsantrag ändern.", "frist": "bis zum Schluss der Aussprache", "beleg": "GeschO § 9 Abs. 2", "note": "Änderungsantrag"}, {"was": "Besuch die Sitzung. Sie ist öffentlich, außer bei Grundstücks-, Personal-, Vertrags- und Vergabesachen.", "frist": "am Sitzungstag", "beleg": "GeschO § 5", "note": "Sitzungsablauf"}]},
+  "ausschuss-entscheidung": {"wer": ["vw"], "ziel": "verstehen", "ebene": "stadt", "mitwirken": [{"was": "Besuch die Sitzung. Sie ist öffentlich, außer bei Grundstücks-, Personal-, Vertrags- und Vergabesachen.", "frist": "am Sitzungstag", "beleg": "GeschO § 5", "note": "Sitzungsablauf"}, {"was": "Der Beschluss gilt erst nach drei Tagen. Einspruch einlegen dürfen nur die Oberbürgermeisterin bzw. der Oberbürgermeister oder ein Fünftel der Ausschussmitglieder.", "frist": "3 Tage nach der Sitzung", "beleg": "GeschO § 22 Abs. 7", "note": "Nach dem Beschluss"}]},
+  "antrag-bv": {"wer": ["bvm"], "ziel": "anstossen", "ebene": "bezirk", "mitwirken": [{"was": "Sprich Bezirksverordnete an. In der Bezirksvertretung genügt ein Mitglied für einen Antrag.", "frist": "21 Tage vor der Sitzung", "beleg": "GeschO § 23 Abs. 3", "note": "Antrag"}, {"was": "Bleibt dein Anliegen im Bezirk, entscheidet die Bezirksvertretung auch über einen Bürgerantrag.", "frist": "21 Tage vor der Sitzung", "beleg": "HS § 10 Abs. 4; GeschO § 27", "note": "Anregungen und Beschwerden"}, {"was": "Stell selbst eine Frage in der Einwohnerfragestunde der Bezirksvertretung.", "frist": "21 Tage vor der Sitzung", "beleg": "GeschO § 26", "note": "Einwohnerfrage"}]},
+  "bauleitplanung": {"wer": ["ew", "fr", "bvm", "vw"], "ziel": "mitreden", "ebene": "beides", "mitwirken": [{"was": "Reich während der Offenlage eine Stellungnahme ein. Sie wird abgewogen.", "frist": "während der Offenlage", "beleg": "§ 3 Abs. 2 BauGB", "note": "Bauleitplanung"}, {"was": "Bei kleinen Plänen führt die Bezirksvertretung die frühzeitige Beteiligung. Achte auf ihre Tagesordnung.", "frist": "frühzeitige Beteiligung", "beleg": "BezS § 7 Abs. 3", "note": "Bezirkssatzung"}, {"was": "Bekanntmachungen stehen im Amtsblatt. Auf Tagesordnungen der Bezirksvertretung Bonn weist das Wochenblatt „Schaufenster“ hin.", "frist": "laufend", "beleg": "HS § 18", "note": "Hauptsatzung"}]},
+  "buergerantrag": {"wer": ["ew"], "ziel": "anstossen", "ebene": "beides", "mitwirken": [{"was": "Reich den Antrag schriftlich ein, mit Namen und Bezug zu Bonn. Anonyme Anträge werden zurückgewiesen.", "frist": "21 Tage vor der Sitzung", "beleg": "GeschO § 27; HS § 10 Abs. 5", "note": "Anregungen und Beschwerden"}, {"was": "Erläutere dein Anliegen selbst im Bürgerausschuss. Andere Gremien können dir das per Beschluss ebenfalls erlauben. Das Ergebnis wird dir mitgeteilt.", "frist": "am Sitzungstag", "beleg": "GeschO § 27", "note": "Beteiligungswege"}, {"was": "Abgelehnt? Fraktionen können das Thema als eigenen Antrag aufgreifen.", "frist": "jederzeit", "beleg": "GeschO § 9", "note": "Antrag"}]},
+  "einwohnerfrage": {"wer": ["ew"], "ziel": "fragen", "ebene": "bezirk", "mitwirken": [{"was": "Reich höchstens zwei Fragen ein. Die Antwort bekommst du vorab schriftlich.", "frist": "21 Tage vor der Sitzung", "beleg": "GeschO § 26", "note": "Einwohnerfrage"}, {"was": "In der Fragestunde kann auf Antrag eine Aussprache folgen.", "frist": "am Sitzungstag", "beleg": "GeschO § 26 Abs. 3", "note": "Beteiligungswege"}]},
+  "einwohnerantrag": {"wer": ["ew"], "ziel": "anstossen", "ebene": "beides", "mitwirken": [{"was": "Lass dich von der Verwaltung bei der Einleitung beraten.", "frist": "vor dem Sammeln", "beleg": "Satzung § 2 Abs. 1", "note": "Satzung Einwohnerantrag und Bürgerbegehren"}, {"was": "Sammle die nötigen Unterschriften. Die Quoren stehen im Gesetz.", "frist": "vor dem Einreichen", "beleg": "§ 25 GO NRW", "note": "Satzung Einwohnerantrag und Bürgerbegehren"}, {"was": "Eure Vertretenden erläutern den Antrag im Rat. Die Sachentscheidung fällt spätestens vier Monate nach Eingang.", "frist": "≤ 4 Monate", "beleg": "GeschO § 28; Satzung § 2 Abs. 2", "note": "Satzung Einwohnerantrag und Bürgerbegehren"}]},
+  "buergerbegehren": {"wer": ["ew"], "ziel": "mitreden", "ebene": "beides", "mitwirken": [{"was": "Beantrage nach der Kostenschätzung eine Vorprüfung, noch ohne Unterschriften. Der Hauptausschuss entscheidet darüber.", "frist": "≤ 8 Wochen", "beleg": "Satzung § 3 Abs. 5; HS § 10a", "note": "Satzung Einwohnerantrag und Bürgerbegehren"}, {"was": "Folgt der Rat dem Begehren nicht, stimmst du im Bürgerentscheid ab, meist per Brief.", "frist": "≤ 3 Monate", "beleg": "Satzung §§ 4, 7", "note": "Satzung Einwohnerantrag und Bürgerbegehren"}]},
+  "dringlichkeitsantrag": {"wer": ["sv", "fr", "bvm"], "ziel": "anstossen", "ebene": "beides", "mitwirken": [{"was": "Dringlichkeitsanträge stellen nur Mitglieder. Für dich bleibt der reguläre Weg, zum Beispiel ein Bürgerantrag.", "frist": "21 Tage vor der Sitzung", "beleg": "GeschO § 27", "note": "Anregungen und Beschwerden"}]},
+  "dringlichkeitsentscheidung": {"wer": ["vw", "bvm"], "ziel": "verstehen", "ebene": "beides", "mitwirken": [{"was": "Die Eilentscheidung muss in der nächsten Sitzung genehmigt werden. Diese Sitzung ist öffentlich.", "frist": "nächste Sitzung", "beleg": "§ 60 GO NRW; GeschO § 5", "note": "Genehmigung"}]}
+ },
+ "glossar": [
+  {"begriff": "Vorlage", "text": "Ein Dokument, über das ein Gremium berät. Die Verwaltung schreibt Beschlussvorlagen (mit Beschlussvorschlag) und Mitteilungsvorlagen (nur zur Information).", "note": "Beschlussvorlage"},
+  {"begriff": "Antrag", "text": "Eine Fraktion, eine Gruppe oder ein Mitglied will, dass ein Gremium über etwas beschließt. Frist: 21 Tage vor der Sitzung. Kommt er von Einwohner:innen, heißt er Bürgerantrag.", "note": "Antrag"},
+  {"begriff": "Stellungnahme", "text": "Antwort oder Einschätzung der Verwaltung zu einem Antrag oder einer Anfrage. Sie soll 8 Tage vor der Sitzung vorliegen.", "note": "Stellungnahme der Verwaltung"},
+  {"begriff": "Beratungsfolge", "text": "Die Reihenfolge der Gremien, die eine Vorlage beraten, zum Beispiel erst Bezirksvertretung, dann Fachausschuss, dann Rat. Jedes Gremium hat eine Rolle: Kenntnisnahme, Anhörung, Empfehlung oder Entscheidung.", "note": "Prozessmodell"},
+  {"begriff": "TOP", "text": "Tagesordnungspunkt. Jede Beratung in einer Sitzung ist ein TOP und bekommt ein Ergebnis, zum Beispiel beschlossen oder vertagt.", "note": "Ergebnisse"},
+  {"begriff": "Fraktion", "text": "Zusammenschluss von Ratsmitgliedern mit Fraktionsstatus. Kleinere Zusammenschlüsse heißen Gruppen.", "note": "Fraktion"},
+  {"begriff": "Bezirksvertretung", "text": "Gewählte Vertretung eines Stadtbezirks mit 19 Bezirksverordneten; dazu können Ausgleichssitze kommen. Bonn hat vier: Bonn, Bad Godesberg, Beuel und Hardtberg. Abkürzung: BV.", "note": "Bezirksvertretungen"},
+  {"begriff": "Hauptausschuss", "text": "Ausschuss des Rates. Er entscheidet in Eilfällen anstelle des Rates und stimmt die Arbeit der Ausschüsse ab.", "note": "Hauptausschuss"}
+ ],
+ "abkuerzungen": {"AA": "Änderungsantrag", "AUKLA": "Ausschuss für Umwelt, Klima und Lokale Agenda", "B-Plan": "Bebauungsplan", "BauGB": "Baugesetzbuch", "BezS": "Bezirkssatzung", "BSK": "Beschlusskontrolle", "BV": "Bezirksvertretung", "GeschO": "Geschäftsordnung des Rates", "GO NRW": "Gemeindeordnung Nordrhein-Westfalen", "HS": "Hauptsatzung", "OB": "Oberbürgermeister:in", "PLA": "Ausschuss für Planen, Bauen und Denkmalschutz", "ST": "Stellungnahme der Verwaltung", "ZustO": "Zuständigkeitsordnung des Rates"},
+ "verfahren": [
+  {
+   "id": "antrag-rat", "gruppe": "Rat & Ausschüsse", "titel": "Antrag im Rat",
+   "kurz": "Eine Fraktion will, dass der Rat etwas beschließt.",
+   "achse": "tage", "bezug": "Ratssitzung", "note": "Antrag", "beispiele": ["261263"],
+   "schritte": [
+    {"id": "a1", "t": -21, "bahn": "rm", "was": "Antrag bei der OB einreichen", "label": "Antrag einreichen", "beleg": "GeschO § 9 Abs. 1", "note": "Fristen",
+     "detail": "Einreichen dürfen Fraktionen, Gruppen und einzelne Stadtverordnete. Auf die Tagesordnung muss der Antrag, wenn eine Fraktion, eine Gruppe oder ein Fünftel der Ratsmitglieder ihn trägt (§ 7 Abs. 4)."},
+    {"id": "a2", "t": -20, "bahn": "vw", "was": "Ratsbüro prüft formal, Fachamt arbeitet an der Stellungnahme", "label": "Formale Prüfung", "note": "Verwaltung"},
+    {"id": "a3", "t": -14, "bahn": "vw", "was": "OB setzt die Tagesordnung fest und lädt ein", "label": "Einladung", "beleg": "GeschO § 2 Abs. 2", "note": "Fristen"},
+    {"id": "a4", "t": -8, "bahn": "vw", "was": "Nachversand: Stellungnahme der Verwaltung (ST)", "label": "Stellungnahme (ST)", "beleg": "GeschO § 9 Abs. 1", "note": "Stellungnahme der Verwaltung",
+     "detail": "Schafft das Fachamt keine ausführliche Antwort, kommt eine begründete Zwischennachricht oder ein mündlicher Bericht in der Sitzung."},
+    {"id": "a5", "t": 0, "bahn": "rm", "was": "Änderungsanträge (AA) bis Schluss der Aussprache", "label": "Änderungsanträge", "beleg": "GeschO § 9 Abs. 2", "note": "Änderungsantrag"},
+    {"id": "a6", "t": 0, "bahn": "rat", "was": "Sitzung: Begründung, Fraktionen sprechen, Abstimmung", "label": "Ratssitzung", "beleg": "GeschO §§ 13–16", "note": "Sitzungsablauf"},
+    {"id": "a7", "t": 14, "bahn": "vw", "was": "Niederschrift, Beschlusskontrolle (BSK)", "label": "Niederschrift", "beleg": "GeschO §§ 10 Abs. 2, 21", "note": "Nach dem Beschluss", "zeit": "danach"}
+   ],
+   "kanten": [["a1", "a2"], ["a2", "a3"], ["a3", "a4"], ["a4", "a6"], ["a5", "a6"], ["a6", "a7"]],
+   "ausgaenge": [
+    {"wenn": "vertagt", "dann": "Antrag kommt in die nächste Sitzung", "beleg": "GeschO § 14", "note": "Sitzungsablauf"},
+    {"wenn": "verwiesen", "dann": "Fachausschuss berät vor, danach wieder der Rat", "beleg": "GeschO § 7 Abs. 6", "note": "Sitzungsablauf"},
+    {"wenn": "abgelehnt", "dann": "keine Mehrheit; Stimmengleichheit zählt als Ablehnung", "beleg": "GeschO § 16", "note": "Ergebnisse"},
+    {"wenn": "beschlossen", "dann": "OB kann widersprechen, sonst setzt die Verwaltung um", "beleg": "§ 54 GO NRW, GeschO § 19", "note": "Nach dem Beschluss"}
+   ]
+  },
+  {
+   "id": "grosse-anfrage", "gruppe": "Rat & Ausschüsse", "titel": "Große Anfrage",
+   "kurz": "Eine Fraktion will von der OB eine Antwort in der Sitzung.",
+   "achse": "tage", "bezug": "Ratssitzung", "note": "Große Anfrage", "beispiele": ["261100", "260546"],
+   "schritte": [
+    {"id": "g1", "t": -21, "bahn": "rm", "was": "Große Anfrage einreichen", "label": "Anfrage einreichen", "beleg": "GeschO § 11 Abs. 2", "note": "Große Anfrage",
+     "detail": "Fraktion, Gruppe oder vier Stadtverordnete; in einer BV genügt ein Mitglied."},
+    {"id": "g2", "t": -14, "bahn": "vw", "was": "Einladung mit Tagesordnung", "label": "Einladung", "beleg": "GeschO § 2 Abs. 2", "note": "Fristen"},
+    {"id": "g3", "t": -8, "bahn": "vw", "was": "Antwort der OB, mindestens Zwischennachricht", "label": "Antwort der OB", "beleg": "GeschO § 11 Abs. 3", "note": "Stellungnahme der Verwaltung"},
+    {"id": "g4", "t": 0, "bahn": "rat", "was": "Fragestunde vor der Sitzung, höchstens 60 Minuten", "label": "Fragestunde", "beleg": "GeschO § 11 Abs. 1", "note": "Sitzungsablauf",
+     "detail": "Auf Verlangen gibt es eine Aussprache. Was nicht drankommt, folgt nach der öffentlichen Tagesordnung."},
+    {"id": "g5", "t": 14, "bahn": "vw", "was": "Antwort steht in der Niederschrift", "label": "Antwort in Niederschrift", "beleg": "GeschO § 21", "note": "Nach dem Beschluss", "zeit": "danach"}
+   ],
+   "ausgaenge": [
+    {"wenn": "Antwort reicht nicht", "dann": "Rat kann die OB zur Antwort verpflichten", "beleg": "GeschO § 11 Abs. 3", "note": "Große Anfrage"},
+    {"wenn": "vertagt", "dann": "Anfrage kommt in die nächste Sitzung; das kommt häufig vor", "note": "Ergebnisse"}
+   ]
+  },
+  {
+   "id": "kleine-anfrage", "gruppe": "Rat & Ausschüsse", "titel": "Kleine Anfrage",
+   "kurz": "Ein Mitglied fragt die Verwaltung schriftlich, ohne Sitzung.",
+   "achse": "phasen", "bezug": "Eingang", "note": "Kleine Anfrage", "beispiele": ["261146"],
+   "schritte": [
+    {"id": "k1", "t": 0, "bahn": "rm", "was": "Kleine Anfrage stellen, jederzeit", "label": "Anfrage stellen", "beleg": "GeschO § 12", "note": "Kleine Anfrage", "zeit": "Eingang"},
+    {"id": "k2", "t": 0, "bahn": "bvm", "was": "auch Bezirksverordnete fragen", "label": "Bezirksverordnete fragen", "note": "Kleine Anfrage", "zeit": "Eingang"},
+    {"id": "k3", "t": 1, "bahn": "vw", "was": "Fachamt antwortet schriftlich", "label": "Schriftliche Antwort", "note": "Verwaltung", "zeit": "einige Wochen"},
+    {"id": "k4", "t": 2, "bahn": "rm", "was": "Antwort geht allen Mitgliedern zu, keine Beratung", "label": "Antwort an alle", "beleg": "GeschO § 12", "note": "Kenntnisnahme", "zeit": "Antwort"}
+   ],
+   "kanten": [["k1", "k3"], ["k2", "k3"], ["k3", "k4"]],
+   "ausgaenge": [
+    {"wenn": "Antwort reicht nicht", "dann": "Rat kann die Verwaltung zur Antwort verpflichten", "beleg": "GeschO § 12 Abs. 3", "note": "Kleine Anfrage"}
+   ]
+  },
+  {
+   "id": "beschlussvorlage", "gruppe": "Rat & Ausschüsse", "titel": "Beschlussvorlage der Verwaltung",
+   "kurz": "Der Normalfall: Die Verwaltung schlägt vor, mehrere Gremien beraten nacheinander.",
+   "achse": "phasen", "bezug": "Beratungsfolge", "note": "Beschlussvorlage", "beispiele": ["253158"],
+   "schritte": [
+    {"id": "b1", "t": 0, "bahn": "vw", "was": "Fachamt schreibt, Dezernat zeichnet, OB gibt frei", "label": "Vorlage entsteht", "note": "Verwaltung", "zeit": "Wochen vorher"},
+    {"id": "b2", "t": 1, "bahn": "vw", "was": "Einladung mit Vorlage, Beratungsfolge steht fest", "label": "Einladung", "beleg": "GeschO § 2 Abs. 2; ZustO", "note": "Zuständigkeitsordnung", "zeit": "T − 14"},
+    {"id": "b3", "t": 2, "bahn": "bv", "was": "BV wird angehört, wenn der Bezirk betroffen ist", "label": "BV wird angehört", "beleg": "BezS § 9", "note": "Anhörung", "zeit": "1. Sitzung",
+     "detail": "Zum Beispiel bei Investitionen im Bezirk, Offenlage von Bebauungsplänen oder Änderung des Flächennutzungsplans."},
+    {"id": "b4", "t": 2, "bahn": "rm", "was": "Fraktionen stellen Änderungsanträge", "label": "Änderungsanträge", "beleg": "GeschO § 9 Abs. 2", "note": "Änderungsantrag", "zeit": "1. Sitzung"},
+    {"id": "b5", "t": 3, "bahn": "aus", "was": "Fachausschuss berät vor und empfiehlt", "label": "Ausschuss empfiehlt", "beleg": "ZustO", "note": "Empfehlung", "zeit": "2. Sitzung"},
+    {"id": "b6", "t": 4, "bahn": "rat", "was": "Rat entscheidet", "label": "Rat entscheidet", "beleg": "HS § 7", "note": "Entscheidung", "zeit": "3. Sitzung"},
+    {"id": "b7", "t": 5, "bahn": "vw", "was": "Niederschrift, Beschlusskontrolle", "label": "Niederschrift", "beleg": "GeschO §§ 10 Abs. 2, 21", "note": "Nach dem Beschluss", "zeit": "danach"}
+   ],
+   "kanten": [["b1", "b2"], ["b2", "b3"], ["b3", "b5"], ["b4", "b5"], ["b5", "b6"], ["b6", "b7"]],
+   "ausgaenge": [
+    {"wenn": "Sache bleibt im Bezirk", "dann": "BV entscheidet selbst, kein Rat nötig", "beleg": "BezS § 7", "note": "Bezirkssatzung"},
+    {"wenn": "an Ausschuss übertragen", "dann": "Ausschuss entscheidet; 3 Tage Einspruchsfrist", "beleg": "GeschO § 22 Abs. 7", "note": "Nach dem Beschluss"},
+    {"wenn": "Rat will selbst", "dann": "Rückholrecht im Einzelfall", "beleg": "HS § 7 Abs. 2", "note": "Hauptsatzung"},
+    {"wenn": "Kosten ohne Haushaltsmittel", "dann": "Finanzausschuss berät vor dem Rat", "beleg": "GeschO § 22 Abs. 8", "note": "Geld und Vergabe"}
+   ]
+  },
+  {
+   "id": "ausschuss-entscheidung", "gruppe": "Rat & Ausschüsse", "titel": "Entscheidung im Ausschuss",
+   "kurz": "Hat der Rat die Sache übertragen, entscheidet der Ausschuss, aber erst nach drei Tagen wirksam.",
+   "achse": "tage", "bezug": "Ausschusssitzung", "note": "Zuständigkeitsordnung", "beispiele": [],
+   "schritte": [
+    {"id": "e1", "t": -14, "bahn": "vw", "was": "Vorsitz lädt im Einvernehmen mit der OB ein", "label": "Einladung", "beleg": "GeschO § 22 Abs. 6", "note": "Fristen"},
+    {"id": "e2", "t": -8, "bahn": "vw", "was": "Nachversand mit Stellungnahmen", "label": "Nachversand", "beleg": "GeschO § 2 Abs. 2", "note": "Fristen"},
+    {"id": "e3", "t": 0, "bahn": "aus", "was": "Ausschuss beschließt", "label": "Ausschuss beschließt", "beleg": "ZustO", "note": "Entscheidung"},
+    {"id": "e4", "t": 3, "bahn": "vw", "was": "Einspruchsfrist: OB oder ein Fünftel der Ausschussmitglieder", "label": "Einspruchsfrist", "beleg": "GeschO § 22 Abs. 7", "note": "Nach dem Beschluss"},
+    {"id": "e5", "t": 7, "bahn": "rat", "was": "Bei Einspruch entscheidet der Rat", "label": "Rat bei Einspruch", "beleg": "GeschO § 22 Abs. 7", "note": "Rat", "zeit": "nächste Ratssitzung"},
+    {"id": "e6", "t": 7, "bahn": "vw", "was": "Ohne Einspruch: Verwaltung setzt um", "label": "Umsetzung", "note": "Nach dem Beschluss", "zeit": "ab Tag 4"}
+   ],
+   "kanten": [["e1", "e2"], ["e2", "e3"], ["e3", "e4"], ["e4", "e5"], ["e4", "e6"]],
+   "ausgaenge": [
+    {"wenn": "Vergabeausschuss", "dann": "darf mit 3 Tagen Frist einladen", "beleg": "GeschO § 22 Abs. 2", "note": "Geld und Vergabe"}
+   ]
+  },
+  {
+   "id": "antrag-bv", "gruppe": "Bezirksvertretung", "titel": "Antrag in der Bezirksvertretung",
+   "kurz": "Der häufigste Weg im Stadtbezirk: Eine Fraktion stellt einen Antrag in ihrer Bezirksvertretung.",
+   "achse": "tage", "bezug": "BV-Sitzung", "note": "Bezirksvertretung Bonn", "beispiele": ["260567", "260496"],
+   "schritte": [
+    {"id": "v1", "t": -21, "bahn": "bvm", "was": "Antrag einreichen, ein Mitglied genügt", "label": "Antrag einreichen", "beleg": "GeschO §§ 9, 23 Abs. 3", "note": "Antrag"},
+    {"id": "v2", "t": -20, "bahn": "vw", "was": "Bezirksverwaltungsstelle und Fachamt bereiten vor", "label": "Vorbereitung", "beleg": "BezS § 14", "note": "Verwaltung"},
+    {"id": "v3", "t": -14, "bahn": "bv", "was": "Bezirksbürgermeister:in lädt mit Tagesordnung ein", "label": "Einladung", "beleg": "GeschO §§ 2, 23", "note": "Fristen"},
+    {"id": "v4", "t": -8, "bahn": "vw", "was": "Stellungnahme der Verwaltung (ST)", "label": "Stellungnahme (ST)", "beleg": "GeschO § 9 Abs. 1", "note": "Stellungnahme der Verwaltung"},
+    {"id": "v5", "t": 0, "bahn": "bv", "was": "BV entscheidet, wenn die Sache im Bezirk bleibt", "label": "BV entscheidet", "beleg": "BezS § 7", "note": "Entscheidung",
+     "detail": "Verkehrsführung, Straßen und Wege bezirklicher Bedeutung, Spielplätze, Grün, Baumfällungen, Vereinszuschüsse."},
+    {"id": "v6", "t": 0, "bahn": "bvm", "was": "sonst: Anregung an Rat, Ausschuss oder OB", "label": "Anregung weitergeben", "beleg": "BezS § 11", "note": "Anregung"},
+    {"id": "v7", "t": 28, "bahn": "aus", "was": "Rat oder Fachausschuss entscheidet über die Anregung", "label": "Entscheidung über Anregung", "note": "Anregung", "zeit": "spätere Sitzung"}
+   ],
+   "kanten": [["v1", "v2"], ["v2", "v3"], ["v3", "v4"], ["v4", "v5"], ["v5", "v6"], ["v6", "v7"]],
+   "ausgaenge": [
+    {"wenn": "vertagt", "dann": "nächste BV-Sitzung; oft mehrfach", "note": "Ergebnisse"},
+    {"wenn": "beschlossen", "dann": "OB oder Bezirksbürgermeister:in kann widersprechen", "beleg": "§ 37 Abs. 6 GO NRW, GeschO § 23 Abs. 7", "note": "Nach dem Beschluss"},
+    {"wenn": "erledigt", "dann": "durch die Stellungnahme der Verwaltung", "note": "Ergebnisse"}
+   ]
+  },
+  {
+   "id": "bauleitplanung", "gruppe": "Bezirksvertretung", "titel": "Bebauungsplan",
+   "kurz": "Ein langer Weg über mehrere Sitzungen. Die BV ist an mehreren Stellen beteiligt.",
+   "achse": "phasen", "bezug": "Verfahrensstufe", "note": "Bauleitplanung", "beispiele": ["260942"],
+   "schritte": [
+    {"id": "p1", "t": 0, "bahn": "rm", "was": "Anstoß: Antrag einer Fraktion", "label": "Antrag einer Fraktion", "note": "Antrag", "zeit": "Anstoß"},
+    {"id": "p2", "t": 0, "bahn": "vw", "was": "oder Vorschlag der Verwaltung", "label": "Vorschlag der Verwaltung", "note": "Beschlussvorlage", "zeit": "Anstoß"},
+    {"id": "p3", "t": 1, "bahn": "aus", "was": "Zielbeschluss: PLA empfiehlt, AUKLA wird gehört", "label": "Zielbeschluss", "beleg": "ZustO VII 2.15, X 1.2", "note": "Bauleitplanung", "zeit": "Zielbeschluss"},
+    {"id": "p4", "t": 2, "bahn": "bv", "was": "kleine Pläne: BV führt die frühzeitige Beteiligung", "label": "Frühzeitige Beteiligung", "beleg": "BezS § 7 Abs. 3", "note": "Bezirkssatzung", "zeit": "frühzeitige Beteiligung",
+     "detail": "Bis 75 Wohneinheiten, 800 m² Verkaufsfläche oder 2.000 m² Gewerbe. Darüber entscheidet der PLA (ZustO VII 3.2)."},
+    {"id": "p5", "t": 3, "bahn": "ew", "was": "Offenlage: Stellungnahmen einreichen", "label": "Offenlage", "beleg": "§ 3 Abs. 2 BauGB", "note": "Beteiligungswege", "zeit": "Offenlage"},
+    {"id": "p6", "t": 3, "bahn": "bv", "was": "BV wird zur Offenlage angehört", "label": "BV wird angehört", "beleg": "BezS § 9", "note": "Anhörung", "zeit": "Offenlage"},
+    {"id": "p7", "t": 4, "bahn": "vw", "was": "Abwägung der Stellungnahmen", "label": "Abwägung", "note": "Bauleitplanung", "zeit": "Abwägung"},
+    {"id": "p8", "t": 5, "bahn": "bv", "was": "BV empfiehlt den Satzungsbeschluss", "label": "BV empfiehlt", "beleg": "BezS § 8", "note": "Empfehlung", "zeit": "Satzung"},
+    {"id": "p9", "t": 5, "bahn": "aus", "was": "PLA empfiehlt den Satzungsbeschluss", "label": "PLA empfiehlt", "beleg": "ZustO VII 2.15", "note": "Empfehlung", "zeit": "Satzung"},
+    {"id": "p10", "t": 6, "bahn": "rat", "was": "Rat beschließt die Satzung", "label": "Satzungsbeschluss", "note": "Entscheidung", "zeit": "Satzungsbeschluss"},
+    {"id": "p11", "t": 7, "bahn": "vw", "was": "Bekanntmachung im Amtsblatt: rechtskräftig", "label": "Bekanntmachung", "beleg": "HS § 18", "note": "Hauptsatzung", "zeit": "Bekanntmachung"}
+   ],
+   "kanten": [["p1", "p3"], ["p2", "p3"], ["p3", "p4"], ["p4", "p5"], ["p4", "p6"], ["p5", "p7"], ["p6", "p7"], ["p7", "p8"], ["p7", "p9"], ["p8", "p10"], ["p9", "p10"], ["p10", "p11"]],
+   "ausgaenge": [
+    {"wenn": "Plan ändert sich stark", "dann": "neue Offenlage nötig", "note": "Bauleitplanung"},
+    {"wenn": "Vorhaben ohne neuen B-Plan", "dann": "Bau-Turbo § 36a BauGB: PLA entscheidet oder empfiehlt", "beleg": "ZustO VII 3.10, 2.16", "note": "Bauleitplanung"}
+   ]
+  },
+  {
+   "id": "buergerantrag", "gruppe": "Bürgerbeteiligung", "titel": "Bürgerantrag",
+   "kurz": "Anregung oder Beschwerde nach § 24 GO NRW. Betrifft sie nur einen Stadtbezirk, entscheidet meist dessen Bezirksvertretung.",
+   "achse": "tage", "bezug": "Sitzung", "note": "Anregungen und Beschwerden", "beispiele": ["253599", "241447", "261529"],
+   "schritte": [
+    {"id": "u1", "t": -21, "bahn": "ew", "was": "Bürgerantrag schriftlich einreichen", "label": "Antrag einreichen", "beleg": "§ 24 GO NRW, GeschO § 27", "note": "Anregungen und Beschwerden",
+     "detail": "Beraten wird in der nächsten Sitzung, spätestens in der übernächsten."},
+    {"id": "u2", "t": -20, "bahn": "vw", "was": "Zulässigkeit prüfen: nicht anonym, Bonn-Bezug, nicht missbräuchlich", "label": "Zulässigkeit prüfen", "beleg": "HS § 10 Abs. 5", "note": "Hauptsatzung"},
+    {"id": "u3", "t": -8, "bahn": "vw", "was": "Stellungnahme der Verwaltung", "label": "Stellungnahme", "note": "Stellungnahme der Verwaltung"},
+    {"id": "u4", "t": 0, "bahn": "ew", "was": "Antragstellende erläutern ihr Anliegen", "label": "Anliegen erläutern", "beleg": "GeschO § 27", "note": "Beteiligungswege"},
+    {"id": "u5", "t": 0, "bahn": "bv", "was": "bezirklich: BV beschließt", "label": "BV beschließt", "beleg": "HS § 10 Abs. 4", "note": "Entscheidung"},
+    {"id": "u6", "t": 0, "bahn": "aus", "was": "gesamtstädtisch: Bürgerausschuss befürwortet, lehnt ab oder erledigt", "label": "Bürgerausschuss berät", "beleg": "HS § 10 Abs. 1–2", "note": "Ausschuss für Beteiligung der Bürgerinnen und Bürger"},
+    {"id": "u7", "t": 28, "bahn": "rat", "was": "nach Befürwortung: Beschlussvorlage an Rat oder Fachausschuss", "label": "Beschlussvorlage", "beleg": "HS § 10 Abs. 3", "note": "Beschlussvorlage", "zeit": "spätere Sitzung"},
+    {"id": "u8", "t": 28, "bahn": "ew", "was": "Ergebnis wird den Antragstellenden mitgeteilt", "label": "Ergebnis mitteilen", "beleg": "GeschO § 27", "note": "Beteiligungswege", "zeit": "danach"}
+   ],
+   "kanten": [["u1", "u2"], ["u2", "u3"], ["u3", "u5"], ["u3", "u6"], ["u4", "u5"], ["u4", "u6"], ["u6", "u7"], ["u5", "u8"], ["u7", "u8"]],
+   "ausgaenge": [
+    {"wenn": "unzulässig", "dann": "Zurückweisung ohne Beratung", "beleg": "HS § 10 Abs. 5", "note": "Hauptsatzung"},
+    {"wenn": "abgelehnt", "dann": "Fraktionen können das Thema als eigenen Antrag aufgreifen (Beispiel 253599)", "note": "Antrag"},
+    {"wenn": "vertagt", "dann": "nächste Sitzung; das kommt häufig vor", "note": "Ergebnisse"}
+   ]
+  },
+  {
+   "id": "einwohnerfrage", "gruppe": "Bürgerbeteiligung", "titel": "Einwohnerfrage",
+   "kurz": "Eine Frage an die Verwaltung in der Fragestunde der BV.",
+   "achse": "tage", "bezug": "BV-Sitzung", "note": "Einwohnerfrage", "beispiele": [],
+   "schritte": [
+    {"id": "f1", "t": -21, "bahn": "ew", "was": "Frage einreichen, höchstens zwei pro Person", "label": "Frage einreichen", "beleg": "GeschO § 26", "note": "Einwohnerfrage"},
+    {"id": "f2", "t": -7, "bahn": "vw", "was": "schriftliche Antwort geht vorab an die Fragenden", "label": "Schriftliche Antwort", "beleg": "GeschO § 26 Abs. 3", "note": "Verwaltung", "zeit": "rechtzeitig vorher"},
+    {"id": "f3", "t": 0, "bahn": "bv", "was": "Einwohnerfragestunde, höchstens 60 Minuten", "label": "Fragestunde", "beleg": "GeschO § 26", "note": "Bezirksvertretung Bonn"},
+    {"id": "f4", "t": 0, "bahn": "ew", "was": "auf Antrag Aussprache", "label": "Aussprache", "beleg": "GeschO § 26 Abs. 3", "note": "Beteiligungswege"}
+   ],
+   "kanten": [["f1", "f2"], ["f2", "f3"], ["f3", "f4"]],
+   "ausgaenge": [
+    {"wenn": "Wirkung", "dann": "Antwort, keine Entscheidung", "note": "Beteiligungswege"}
+   ]
+  },
+  {
+   "id": "einwohnerantrag", "gruppe": "Bürgerbeteiligung", "titel": "Einwohnerantrag",
+   "kurz": "Mit genug Unterschriften muss sich der Rat (oder die BV) in der Sache entscheiden.",
+   "achse": "wochen", "bezug": "Eingang", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "beispiele": [],
+   "schritte": [
+    {"id": "w0", "t": -4, "bahn": "vw", "was": "Verwaltung berät bei der Einleitung", "label": "Beratung zur Einleitung", "beleg": "Satzung § 2 Abs. 1", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "zeit": "vorher"},
+    {"id": "w1", "t": 0, "bahn": "ew", "was": "Antrag mit Unterschriften einreichen", "label": "Antrag einreichen", "beleg": "§ 25 GO NRW; Satzung § 2 Abs. 2", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "zeit": "Eingang"},
+    {"id": "w2", "t": 6, "bahn": "vw", "was": "Vorprüfung der Zulässigkeit abgeschlossen", "label": "Vorprüfung", "beleg": "Satzung § 2 Abs. 2", "note": "Fristen", "zeit": "≤ 6 Wochen"},
+    {"id": "w3", "t": 8, "bahn": "rat", "was": "Rat entscheidet über die Zulässigkeit", "label": "Zulässigkeit", "beleg": "Satzung § 2 Abs. 2", "note": "Rat", "zeit": "unverzüglich"},
+    {"id": "w4", "t": 17, "bahn": "ew", "was": "Vertretende erläutern den Antrag im Rat", "label": "Antrag erläutern", "beleg": "GeschO § 28", "note": "Geschäftsordnung"},
+    {"id": "w5", "t": 17, "bahn": "rat", "was": "Sachentscheidung des Rates", "label": "Sachentscheidung", "beleg": "Satzung § 2 Abs. 2", "note": "Entscheidung", "zeit": "≤ 4 Monate"}
+   ],
+   "kanten": [["w0", "w1"], ["w1", "w2"], ["w2", "w3"], ["w3", "w5"], ["w4", "w5"]],
+   "ausgaenge": [
+    {"wenn": "an eine BV gerichtet", "dann": "Eingang bei der Bezirksbürgermeisterin bzw. dem Bezirksbürgermeister, BV entscheidet", "beleg": "Satzung § 2 Abs. 4", "note": "Satzung Einwohnerantrag und Bürgerbegehren"}
+   ]
+  },
+  {
+   "id": "buergerbegehren", "gruppe": "Bürgerbeteiligung", "titel": "Bürgerbegehren und Bürgerentscheid",
+   "kurz": "Folgt der Rat einem zulässigen Begehren nicht, stimmen die Bürger:innen ab.",
+   "achse": "wochen", "bezug": "Eingang", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "beispiele": [],
+   "schritte": [
+    {"id": "c0", "t": -12, "bahn": "ew", "was": "optional: Vorprüfung ohne Unterschriftenquorum beantragen", "label": "Vorprüfung beantragen", "beleg": "Satzung § 3 Abs. 5", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "zeit": "nach Kostenschätzung"},
+    {"id": "c1", "t": -4, "bahn": "aus", "was": "Hauptausschuss entscheidet über die Vorprüfung", "label": "Entscheid zur Vorprüfung", "beleg": "HS § 10a", "note": "Hauptausschuss", "zeit": "≤ 8 Wochen"},
+    {"id": "c2", "t": 0, "bahn": "ew", "was": "Bürgerbegehren mit Unterschriften einreichen", "label": "Begehren einreichen", "beleg": "§ 26 GO NRW", "note": "Beteiligungswege", "zeit": "Eingang"},
+    {"id": "c3", "t": 9, "bahn": "vw", "was": "Prüfung von Zulässigkeit und Rechtmäßigkeit abgeschlossen", "label": "Prüfung", "beleg": "Satzung § 3 Abs. 2", "note": "Fristen", "zeit": "≤ 2 Monate"},
+    {"id": "c4", "t": 10, "bahn": "rat", "was": "Rat entscheidet über die Zulässigkeit, auch bei BV-Begehren", "label": "Zulässigkeit", "beleg": "Satzung § 3 Abs. 2, 4", "note": "Rat", "zeit": "unverzüglich"},
+    {"id": "c5", "t": 11, "bahn": "rat", "was": "Folgen Rat bzw. BV dem Begehren?", "label": "Folgt der Rat?", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "zeit": "Sachentscheidung"},
+    {"id": "c6", "t": 24, "bahn": "ew", "was": "Bürgerentscheid, meist per Briefabstimmung", "label": "Bürgerentscheid", "beleg": "Satzung § 4", "note": "Satzung Einwohnerantrag und Bürgerbegehren", "zeit": "≤ 3 Monate"}
+   ],
+   "kanten": [["c0", "c1"], ["c1", "c2"], ["c2", "c3"], ["c3", "c4"], ["c4", "c5"], ["c5", "c6"]],
+   "ausgaenge": [
+    {"wenn": "unzulässig", "dann": "Verfahren endet", "note": "Satzung Einwohnerantrag und Bürgerbegehren"},
+    {"wenn": "Rat folgt", "dann": "Umsetzung, kein Bürgerentscheid", "note": "Satzung Einwohnerantrag und Bürgerbegehren"},
+    {"wenn": "Ratsbürgerentscheid", "dann": "Rat setzt mit zwei Dritteln selbst eine Abstimmung an", "beleg": "Satzung § 5", "note": "Satzung Einwohnerantrag und Bürgerbegehren"}
+   ]
+  },
+  {
+   "id": "dringlichkeitsantrag", "gruppe": "Eilfälle", "titel": "Dringlichkeitsantrag",
+   "kurz": "Die 21-Tage-Frist ist vorbei, aber die Sache duldet keinen Aufschub.",
+   "achse": "tage", "bezug": "Sitzung", "note": "Dringlichkeitsantrag", "beispiele": [],
+   "schritte": [
+    {"id": "d1", "t": -12, "bahn": "rm", "was": "Dringlichkeitsantrag nach Ablauf der 21-Tage-Frist einreichen", "label": "Antrag einreichen", "note": "Dringlichkeitsantrag", "zeit": "nach der Frist"},
+    {"id": "d2", "t": -8, "bahn": "vw", "was": "Nachversand, auch mit Dringlichkeitsanträgen", "label": "Nachversand", "note": "Fristen"},
+    {"id": "d3", "t": -1, "bahn": "vw", "was": "äußerste Dringlichkeit: Rat mit 24 Stunden Frist einberufen", "label": "Eilsitzung", "beleg": "GeschO § 2 Abs. 2", "note": "Fristen", "zeit": "T − 24 h"},
+    {"id": "d4", "t": 0, "bahn": "rat", "was": "Gremium beschließt erst, die Tagesordnung zu erweitern", "label": "Tagesordnung erweitern", "beleg": "GeschO § 7 Abs. 5", "note": "Sitzungsablauf"},
+    {"id": "d5", "t": 0, "bahn": "rm", "was": "auch mündlich in der Sitzung möglich; danach Beratung wie ein Antrag", "label": "Mündlicher Antrag", "note": "Antrag"}
+   ],
+   "kanten": [["d1", "d2"], ["d2", "d4"], ["d3", "d4"], ["d5", "d4"]],
+   "ausgaenge": [
+    {"wenn": "Erweiterung abgelehnt", "dann": "Antrag geht regulär in die nächste Sitzung", "beleg": "GeschO § 7 Abs. 5", "note": "Dringlichkeitsantrag"}
+   ]
+  },
+  {
+   "id": "dringlichkeitsentscheidung", "gruppe": "Eilfälle", "titel": "Dringlichkeitsentscheidung",
+   "kurz": "Keine Sitzung möglich, aber es droht ein Schaden: Eine Eilentscheidung ersetzt den Beschluss.",
+   "achse": "phasen", "bezug": "Eilfall", "note": "Dringlichkeitsentscheidung OB", "beispiele": ["261798"],
+   "schritte": [
+    {"id": "x1", "t": 0, "bahn": "aus", "was": "zuerst: Hauptausschuss entscheidet anstelle des Rates", "label": "Hauptausschuss entscheidet", "beleg": "ZustO I 2.1", "note": "Hauptausschuss", "zeit": "Eilfall"},
+    {"id": "x2", "t": 1, "bahn": "vw", "was": "nicht erreichbar: OB entscheidet mit einem Ratsmitglied", "label": "OB entscheidet", "beleg": "§ 60 GO NRW", "note": "Dringlichkeitsentscheidung OB", "zeit": "Eilentscheidung"},
+    {"id": "x3", "t": 1, "bahn": "bv", "was": "in der BV: Bezirksbürgermeister:in mit einem Mitglied", "label": "BV-Vorsitz entscheidet", "note": "Dringlichkeitsentscheidung BV", "zeit": "Eilentscheidung"},
+    {"id": "x4", "t": 2, "bahn": "rat", "was": "Rat genehmigt nachträglich", "label": "Rat genehmigt", "note": "Genehmigung", "zeit": "nächste Sitzung"},
+    {"id": "x5", "t": 2, "bahn": "bv", "was": "BV genehmigt nachträglich", "label": "BV genehmigt", "note": "Genehmigung", "zeit": "nächste Sitzung"}
+   ],
+   "kanten": [["x1", "x2"], ["x2", "x4"], ["x3", "x5"]],
+   "ausgaenge": [
+    {"wenn": "Beispiel 261798", "dann": "Naturschutzbeirat lehnt ab, OB entscheidet per Dringlichkeit, Genehmigung offen", "note": "Genehmigung"}
+   ]
+  }
+ ],
+ "einordnung_extra": {
+  "hinweis": "Liest einordnung.py (Teil Verfolgen). Pseudo-Verfahren ohne Swimlane, Schritte für Begleitdokumente und Rollen der Beratungen. Fakten aus den Vault-Notes.",
+  "verfahren": [
+   {"id": "mitteilung", "titel": "Mitteilung der Verwaltung", "kurz": "Die Verwaltung informiert ein Gremium. Es gibt keinen Beschlussvorschlag; das Gremium nimmt die Mitteilung zur Kenntnis.", "note": "Mitteilungsvorlage",
+    "schritte": [
+     {"id": "m1", "was": "Verwaltung schreibt die Mitteilung oder den Informationsbrief", "note": "Mitteilungsvorlage"},
+     {"id": "m2", "was": "Gremium nimmt zur Kenntnis, ohne Beschluss", "beleg": "ZustO", "note": "Kenntnisnahme"}
+    ]},
+   {"id": "nichtoeffentlich", "titel": "Nichtöffentliche Tagesordnungspunkte", "kurz": "Platzhalter für den nichtöffentlichen Teil einer Sitzung. Inhalte sind nicht einsehbar.", "note": "Tagesordnungspunkte in nichtöffentlicher Sitzung",
+    "schritte": [
+     {"id": "n1", "was": "Punkte für den nichtöffentlichen Teil der Sitzung", "beleg": "GeschO § 5", "note": "Tagesordnungspunkte in nichtöffentlicher Sitzung"},
+     {"id": "n2", "was": "Beratung ohne Öffentlichkeit", "beleg": "GeschO § 5", "note": "Sitzungsablauf"}
+    ]}
+  ],
+  "schritte": {
+   "eingang-verwaltung": {"was": "Verwaltung legt die Vorlage vor", "beleg": "GeschO § 10", "note": "Geschäftsordnung"},
+   "stellungnahme": {"was": "Stellungnahme der Verwaltung (ST)", "beleg": "GeschO § 9 Abs. 1", "note": "Stellungnahme der Verwaltung"},
+   "aenderungsantrag": {"was": "Änderungsantrag (AA), zulässig bis zum Schluss der Aussprache", "beleg": "GeschO § 9 Abs. 2", "note": "Änderungsantrag"},
+   "folgevorlage": {"was": "Weitere Vorlage zum selben Vorgang", "note": "Lebenszyklus einer Vorlage"},
+   "umsetzung": {"was": "Umsetzung durch die Verwaltung, Beschlusskontrolle (BSK)", "beleg": "GeschO § 10 Abs. 2", "note": "Nach dem Beschluss"}
+  },
+  "rollen": [
+   {"rolle": "Entscheidung", "gremienart": "Bezirksvertretungen", "text": "entscheidet verbindlich", "beleg": "BezS § 7", "note": "Entscheidung"},
+   {"rolle": "Entscheidung", "gremienart": "Rat", "text": "entscheidet verbindlich", "beleg": "§ 41 GO NRW; HS § 7 Abs. 2", "note": "Entscheidung"},
+   {"rolle": "Entscheidung", "gremienart": "Ratsgremien", "text": "entscheidet verbindlich; wirksam erst nach drei Tagen Einspruchsfrist", "beleg": "ZustO; GeschO § 22 Abs. 7", "note": "Zuständigkeitsordnung"},
+   {"rolle": "Entscheidung", "gremienart": "*", "text": "entscheidet verbindlich", "note": "Entscheidung"},
+   {"rolle": "Empfehlung", "gremienart": "Bezirksvertretungen", "text": "berät vor und empfiehlt", "beleg": "BezS § 8", "note": "Empfehlung"},
+   {"rolle": "Empfehlung", "gremienart": "Ratsgremien", "text": "berät vor und empfiehlt", "beleg": "ZustO", "note": "Empfehlung"},
+   {"rolle": "Empfehlung", "gremienart": "*", "text": "berät vor und empfiehlt", "note": "Empfehlung"},
+   {"rolle": "Vorberatung", "gremienart": "Ratsgremien", "text": "berät vor", "beleg": "ZustO", "note": "Empfehlung"},
+   {"rolle": "Vorberatung", "gremienart": "*", "text": "berät vor", "note": "Empfehlung"},
+   {"rolle": "Anhörung", "gremienart": "Bezirksvertretungen", "text": "wird angehört", "beleg": "BezS § 9", "note": "Anhörung"},
+   {"rolle": "Anhörung", "gremienart": "Ratsgremien", "text": "wird angehört", "beleg": "ZustO", "note": "Anhörung"},
+   {"rolle": "Anhörung", "gremienart": "*", "text": "wird angehört", "note": "Anhörung"},
+   {"rolle": "Anregung", "gremienart": "Bezirksvertretungen", "text": "richtet eine Anregung an Rat, Ausschuss oder OB", "beleg": "BezS § 11", "note": "Anregung"},
+   {"rolle": "Anregung", "gremienart": "*", "text": "richtet eine Anregung an das entscheidende Gremium", "note": "Anregung"},
+   {"rolle": "Kenntnisnahme", "gremienart": "*", "text": "nimmt zur Kenntnis, ohne Beschluss", "note": "Kenntnisnahme"},
+   {"rolle": "Genehmigung", "gremienart": "Rat", "text": "genehmigt nachträglich eine Eilentscheidung", "beleg": "§ 60 GO NRW", "note": "Genehmigung"},
+   {"rolle": "Genehmigung", "gremienart": "*", "text": "genehmigt nachträglich eine Eilentscheidung", "note": "Genehmigung"},
+   {"rolle": "Eilentscheidung", "gremienart": "*", "text": "entscheidet im Eilfall anstelle des Rates", "beleg": "§ 60 GO NRW", "note": "Dringlichkeitsentscheidung OB"},
+   {"rolle": "Aktuelle Informationen der Verwaltung", "gremienart": "*", "text": "wird von der Verwaltung informiert", "note": "Aktuelle Informationen der Verwaltung"},
+   {"rolle": "*", "gremienart": "*", "text": "berät; die Rolle ist in den Daten nicht angegeben", "note": "Prozessmodell"}
+  ],
+  "worum": {
+   "antrag-rat": ["Ein Antrag aus der Politik{von}.", "{Entscheider} soll darüber beschließen."],
+   "antrag-bv": ["Ein Antrag{von} für den Stadtbezirk.", "{Entscheider} soll darüber beschließen."],
+   "dringlichkeitsantrag": ["Ein Dringlichkeitsantrag{von}: Die Sache soll kurzfristig auf die Tagesordnung, weil sie eilt.", "{Entscheider} soll darüber beschließen."],
+   "buergerantrag": ["Ein Bürgerantrag: Einwohner:innen wenden sich mit einer Anregung oder Beschwerde an die Stadt.", "{Entscheider} befasst sich damit."],
+   "einwohnerfrage": ["Eine Frage von Einwohner:innen für die Fragestunde einer Bezirksvertretung; die Verwaltung antwortet.", ""],
+   "grosse-anfrage": ["Eine Große Anfrage{von}: Die Verwaltung soll in der Sitzung antworten.", ""],
+   "kleine-anfrage": ["Eine Kleine Anfrage{von}: Die Verwaltung soll schriftlich antworten.", ""],
+   "beschlussvorlage": ["Ein Vorschlag der Verwaltung, über den die Politik beschließen soll.", "Entscheiden soll {entscheider}."],
+   "ausschuss-entscheidung": ["Ein Vorschlag der Verwaltung, über den ein Ausschuss abschließend entscheidet.", "Zuständig ist {entscheider}."],
+   "bauleitplanung": ["Ein Schritt der Bauleitplanung: Ein Bebauungs- oder Flächennutzungsplan legt fest, was auf einer Fläche gebaut werden darf.", "Entscheiden soll {entscheider}."],
+   "dringlichkeitsentscheidung": ["Eine Eilentscheidung: Weil keine Sitzung möglich war, wurde ohne das zuständige Gremium entschieden.", "{Entscheider} muss sie nachträglich genehmigen."],
+   "mitteilung": ["Eine Information der Verwaltung an die Politik; beschlossen wird nichts.", ""],
+   "nichtoeffentlich": ["Ein Sammelpunkt für den nichtöffentlichen Teil einer Sitzung; die Inhalte sind nicht öffentlich.", ""]
+  }
+ },
+ "einfluss_regeln": [
+  {"id": "sitzung-besuchen", "wenn": {"status": ["offen", "vertagt"], "termin": true, "nicht_verfahren": ["nichtoeffentlich"]}, "was": "Besuch die Sitzung: {gremium} am {datum}. Sie ist öffentlich, außer bei Grundstücks-, Personal-, Darlehens-, Vertrags- und Vergabesachen.", "frist": "am Sitzungstag", "bezug": "termin", "tage": 0, "beleg": "GeschO § 5", "note": "Sitzungsablauf"},
+  {"id": "livestream", "wenn": {"status": ["offen", "vertagt"], "termin_gremienart": ["Rat"], "nicht_verfahren": ["nichtoeffentlich"]}, "was": "Ratssitzungen werden live gestreamt und archiviert, sofern die Redenden einwilligen.", "frist": "am Sitzungstag", "bezug": "termin", "tage": 0, "beleg": "GeschO §§ 5a, 5b", "note": "Geschäftsordnung"},
+  {"id": "buergerantrag-erlaeutern", "wenn": {"status": ["offen", "vertagt"], "verfahren": ["buergerantrag"]}, "was": "Hast du den Antrag gestellt? Im Bürgerausschuss darfst du ihn selbst erläutern; andere Gremien können dir das per Beschluss erlauben. Das Ergebnis wird dir mitgeteilt.", "frist": "am Sitzungstag", "bezug": "termin", "tage": 0, "beleg": "GeschO § 27", "note": "Anregungen und Beschwerden"},
+  {"id": "einwohnerfrage", "wenn": {"status": ["offen", "vertagt"], "termin_gremienart": ["Bezirksvertretungen"], "nicht_verfahren": ["nichtoeffentlich"]}, "was": "Stell selbst eine Frage in der Einwohnerfragestunde: {gremium}. Höchstens zwei Fragen pro Person, die Antwort kommt schriftlich.", "frist": "21 Tage vor der Sitzung", "bezug": "termin", "tage": -21, "beleg": "GeschO § 26", "note": "Einwohnerfrage"},
+  {"id": "ansprechen-bv", "wenn": {"status": ["offen", "vertagt"], "ebene": ["bezirk"], "nicht_verfahren": ["mitteilung", "nichtoeffentlich", "grosse-anfrage", "kleine-anfrage", "einwohnerfrage", "dringlichkeitsentscheidung"]}, "was": "Sprich vor der Entscheidung Bezirksverordnete an. In der Bezirksvertretung genügt ein Mitglied für einen Antrag; Änderungsanträge sind bis zum Schluss der Aussprache möglich.", "frist": "bis zum Schluss der Aussprache", "bezug": "termin", "tage": 0, "beleg": "GeschO §§ 9 Abs. 2, 23 Abs. 3", "note": "Änderungsantrag"},
+  {"id": "ansprechen-rat", "wenn": {"status": ["offen", "vertagt"], "nicht_ebene": ["bezirk"], "nicht_verfahren": ["mitteilung", "nichtoeffentlich", "grosse-anfrage", "kleine-anfrage", "einwohnerfrage", "dringlichkeitsentscheidung"]}, "was": "Sprich vor der Entscheidung Fraktionen oder Gruppen an. Diese können per Änderungsantrag Änderungen beantragen, bis zum Schluss der Aussprache.", "frist": "bis zum Schluss der Aussprache", "bezug": "termin", "tage": 0, "beleg": "GeschO § 9 Abs. 2", "note": "Änderungsantrag"},
+  {"id": "eigener-buergerantrag", "wenn": {"status": ["offen", "vertagt", "unklar"], "nicht_verfahren": ["nichtoeffentlich", "dringlichkeitsentscheidung"]}, "was": "Bring dein Anliegen selbst ein: als Bürgerantrag, schriftlich und mit Namen. Zuständig ist {ziel}; die nächste erreichbare Sitzung ist am {ziel_datum}.", "frist": "21 Tage vor der Sitzung", "bezug": "buergerantrag_ziel", "tage": -21, "beleg": "§ 24 GO NRW, GeschO § 27, HS § 10", "note": "Anregungen und Beschwerden"},
+  {"id": "offenlage", "wenn": {"verfahren": ["bauleitplanung"]}, "was": "Bei Bebauungsplänen kannst du während der Offenlage eine Stellungnahme einreichen; sie wird abgewogen. Wann die Offenlage läuft, steht im Amtsblatt.", "frist": "während der Offenlage", "beleg": "§ 3 Abs. 2 BauGB; HS § 18", "note": "Bauleitplanung"},
+  {"id": "termin-offen", "wenn": {"status": ["offen", "vertagt"], "termin": false, "nicht_verfahren": ["nichtoeffentlich"]}, "was": "Ein Sitzungstermin steht noch nicht fest. Die Tagesordnung erscheint mit der Einladung 14 Tage vor der Sitzung im Ratsinformationssystem.", "frist": "14 Tage vor der Sitzung", "beleg": "GeschO § 2 Abs. 2", "note": "Fristen"},
+  {"id": "entschieden", "wenn": {"status": ["abgeschlossen"], "abschluss": ["beschlossen"]}, "was": "Die Entscheidung ist gefallen. Die Verwaltung setzt sie um; den Stand hält die Beschlusskontrolle fest, deren Datenbank nicht öffentlich ist. Nach dem Stand fragen kann eine Fraktion per Anfrage; neue Anstöße gibst du per Bürgerantrag.", "frist": "jederzeit", "beleg": "GeschO §§ 10 Abs. 2, 11, 12; § 24 GO NRW", "note": "Nach dem Beschluss"},
+  {"id": "abgelehnt", "wenn": {"status": ["abgeschlossen"], "abschluss": ["abgelehnt"]}, "was": "Der Antrag ist abgelehnt. Fraktionen können das Thema als eigenen Antrag aufgreifen; du selbst kannst einen Bürgerantrag stellen.", "frist": "jederzeit", "beleg": "GeschO § 9; § 24 GO NRW", "note": "Antrag"},
+  {"id": "erledigt", "wenn": {"status": ["abgeschlossen"], "abschluss": ["zur Kenntnis", "erledigt"], "nicht_verfahren": ["nichtoeffentlich"]}, "was": "Der Vorgang ist ohne eigenen Beschluss erledigt. Eigene Fragen stellst du in der Einwohnerfragestunde einer Bezirksvertretung; eine Fraktion kann per Anfrage nachhaken.", "frist": "jederzeit", "beleg": "GeschO §§ 11, 12, 26", "note": "Beteiligungswege"},
+  {"id": "stand-erfragen", "wenn": {"status": ["unklar"]}, "was": "Wie es um den Vorgang steht, zeigen die Daten nicht. Frag eine Fraktion oder Bezirksverordnete: Sie können per Anfrage bei der Verwaltung nachhaken. Eigene Fragen stellst du in der Einwohnerfragestunde einer Bezirksvertretung.", "frist": "jederzeit", "beleg": "GeschO §§ 11, 12, 26", "note": "Beteiligungswege"},
+  {"id": "nichtoeffentlich", "wenn": {"verfahren": ["nichtoeffentlich"]}, "was": "Diese Punkte werden nichtöffentlich beraten, etwa Grundstücks-, Personal-, Darlehens-, Vertrags- und Vergabesachen. Die Inhalte sind nicht einsehbar.", "frist": "keine", "beleg": "GeschO § 5", "note": "Sitzungsablauf"}
+ ],
+  "fahrplan": {
+   "hinweis": "Liest seite.py für das Fahrplan-Diagramm der Bürgerseite: fünf Haltestellen, Abzweige und die Zuordnung der Verfahrensschritte (zuordnung), Beratungsrollen (rollen) und Knotenarten (arten) zu Haltestellen. Knoten ohne Zuordnung (Folgevorlage, Änderungsantrag) bleiben an der Haltestelle des vorigen Knotens. Fakten aus den Vault-Notes Wissen/Abläufe; die Zuordnung ist eine Einordnung, kein Rechtstext.",
+   "stationen": [
+    {"id": "einbringen", "label": "Einbringen", "wer": "Verwaltung, Fraktionen, Bezirksverordnete oder Einwohner:innen", "organe": ["vw", "fr", "bv", "ew"], "frist": "T − 21", "frist_text": "Anträge, Große Anfragen, Bürgeranträge und Einwohnerfragen spätestens 21 Tage vor der Sitzung einreichen", "frist_beleg": "GeschO §§ 7 Abs. 4, 9, 11, 26, 27", "was": "Die Verwaltung bringt Beschluss- und Mitteilungsvorlagen ein. Sie entstehen im Fachamt und werden von der Oberbürgermeisterin bzw. dem Oberbürgermeister freigegeben. Fraktionen, Gruppen und Bezirksverordnete stellen Anträge und Anfragen; das Ratsbüro prüft sie formal. Einwohner:innen reichen Bürgeranträge und Einwohnerfragen ein.", "beleg": "GeschO §§ 9, 10, 26, 27", "note": "Lebenszyklus einer Vorlage", "beispiel": "261529", "mitwirken": [{"id": "buergerantrag", "label": "Bürgerantrag", "text": "Reich einen Bürgerantrag ein, schriftlich und mit Namen.", "beleg": "§ 24 GO NRW, GeschO § 27", "note": "Anregungen und Beschwerden"}, {"id": "einwohnerfrage", "label": "Einwohnerfrage", "text": "Stell höchstens zwei Fragen für die Einwohnerfragestunde der Bezirksvertretung.", "beleg": "GeschO § 26", "note": "Einwohnerfrage"}]},
+    {"id": "stellungnahme", "label": "Stellungnahme", "wer": "Verwaltung: Fachamt, Ratsbüro, Oberbürgermeister:in", "organe": ["vw"], "frist": "T − 14 · T − 8", "frist_text": "Einladung mit Tagesordnung und Vorlagen 14 Tage vor der Sitzung, Nachversand mit den Stellungnahmen der Verwaltung 8 Tage vorher", "frist_beleg": "GeschO §§ 2 Abs. 2, 9 Abs. 1", "was": "Die Oberbürgermeisterin bzw. der Oberbürgermeister setzt die Tagesordnung fest und lädt ein. Das Fachamt schreibt die Stellungnahme der Verwaltung (ST) zu Anträgen und Anfragen. Schafft es keine ausführliche Antwort, kommt eine begründete Zwischennachricht oder ein mündlicher Bericht in der Sitzung.", "beleg": "GeschO §§ 2 Abs. 2, 9 Abs. 1", "note": "Stellungnahme der Verwaltung", "beispiel": "261088", "mitwirken": [{"id": "vorlage-lesen", "label": "Vorlage lesen", "text": "Lies Vorlage und Stellungnahme. Sie stehen mit der Einladung im Ratsinformationssystem.", "beleg": "GeschO § 2 Abs. 2", "note": "Fristen"}]},
+    {"id": "vorberatung", "label": "Vorberatung", "wer": "Bezirksvertretung, Fachausschuss", "organe": ["bv", "aus"], "frist": "T", "frist_text": "in der Sitzung jedes beratenden Gremiums; Änderungsanträge bis zum Schluss der Aussprache", "frist_beleg": "GeschO § 9 Abs. 2", "was": "Welche Gremien in welcher Rolle beraten, steht in der Beratungsfolge. Die Bezirksvertretung wird angehört, wenn der Bezirk betroffen ist. Der Fachausschuss berät vor und gibt dem entscheidenden Gremium eine Empfehlung.", "beleg": "BezS §§ 8, 9; ZustO", "note": "Empfehlung", "beispiel": "261340", "mitwirken": [{"id": "sitzung-besuchen", "label": "Sitzung besuchen", "text": "Besuch die Sitzung. Sie ist öffentlich, außer bei Grundstücks-, Personal-, Vertrags- und Vergabesachen.", "beleg": "GeschO § 5", "note": "Sitzungsablauf"}, {"id": "ansprechen", "label": "Politik ansprechen", "text": "Sprich Fraktionen oder Bezirksverordnete an. Sie können per Änderungsantrag Änderungen beantragen.", "beleg": "GeschO § 9 Abs. 2", "note": "Änderungsantrag"}]},
+    {"id": "entscheidung", "label": "Entscheidung", "wer": "Rat, Bezirksvertretung oder Ausschuss", "organe": ["rat", "bv", "aus", "ha"], "frist": "T", "frist_text": "Sitzung: Dringliches nur per Beschluss, Änderungsanträge bis zum Schluss der Aussprache", "frist_beleg": "GeschO §§ 7 Abs. 5, 9 Abs. 2", "was": "Das zuständige Gremium stimmt ab. Bleibt die Sache im Stadtbezirk, entscheidet die Bezirksvertretung. Hat der Rat die Sache übertragen, entscheidet der Ausschuss. Sonst entscheidet der Rat. Beschlossen ist, was eine Mehrheit findet; Stimmengleichheit zählt als Ablehnung.", "beleg": "BezS § 7; ZustO; HS § 7; GeschO § 16", "note": "Entscheidung", "beispiel": "241447", "mitwirken": [{"id": "sitzung-besuchen", "label": "Sitzung besuchen", "text": "Besuch die Sitzung. Ratssitzungen werden auch live gestreamt.", "beleg": "GeschO §§ 5, 5a", "note": "Sitzungsablauf"}, {"id": "erlaeutern", "label": "Bürgerantrag erläutern", "text": "Hast du einen Bürgerantrag gestellt, darfst du ihn im Bürgerausschuss selbst erläutern; andere Gremien können dir das per Beschluss erlauben.", "beleg": "GeschO § 27", "note": "Anregungen und Beschwerden"}]},
+    {"id": "umsetzung", "label": "Umsetzung", "wer": "Verwaltung", "organe": ["vw"], "frist": "T + 3", "frist_text": "3 Tage Einspruchsfrist bei Ausschussentscheidungen; Niederschrift bis zur nächsten Sitzung", "frist_beleg": "GeschO §§ 21 Abs. 4, 22 Abs. 7", "was": "Die Verwaltung setzt den Beschluss um. Den Stand hält die Beschlusskontrolle (BSK) fest; ihre Datenbank ist nicht öffentlich. Einem Ratsbeschluss kann die Oberbürgermeisterin bzw. der Oberbürgermeister widersprechen, dann berät der Rat erneut.", "beleg": "GeschO §§ 10 Abs. 2, 19; § 54 GO NRW", "note": "Nach dem Beschluss", "mitwirken": [{"id": "stand-erfragen", "label": "Stand erfragen", "text": "Nach dem Stand fragen kann eine Fraktion per Anfrage. Neue Anstöße gibst du per Bürgerantrag.", "beleg": "GeschO §§ 11, 12; § 24 GO NRW", "note": "Nach dem Beschluss"}]}
+   ],
+   "abzweige": [
+    {"id": "eilfall", "label": "Eilfall", "von": "stellungnahme", "nach": "entscheidung", "art": "umweg", "text": "Duldet eine Sache keinen Aufschub, entscheidet der Hauptausschuss anstelle des Rates; ist er nicht erreichbar, die Oberbürgermeisterin bzw. der Oberbürgermeister mit einem Ratsmitglied. Das zuständige Gremium genehmigt die Eilentscheidung nachträglich.", "beleg": "ZustO I 2.1; § 60 GO NRW", "note": "Dringlichkeitsentscheidung OB"},
+    {"id": "vertagt", "label": "vertagt", "von": "vorberatung", "nach": "vorberatung", "auch": ["entscheidung"], "art": "schleife", "text": "Der Punkt kommt in eine spätere Sitzung desselben Gremiums.", "beleg": "GeschO § 14", "note": "Sitzungsablauf"},
+    {"id": "verwiesen", "label": "verwiesen", "von": "entscheidung", "nach": "vorberatung", "art": "zurueck", "text": "Das Gremium verweist die Sache in einen Ausschuss. Er berät vor, danach berät wieder das entscheidende Gremium.", "beleg": "GeschO §§ 7 Abs. 6, 14", "note": "Sitzungsablauf"},
+    {"id": "abgelehnt", "label": "abgelehnt", "von": "entscheidung", "nach": null, "art": "ende", "text": "Keine Mehrheit oder Stimmengleichheit: Der Vorgang endet. Fraktionen können das Thema als eigenen Antrag aufgreifen.", "beleg": "GeschO §§ 9, 16", "note": "Ergebnisse"}
+   ],
+   "zuordnung": {
+    "antrag-rat": {"schritte": {"a1": "einbringen", "a2": "stellungnahme", "a3": "stellungnahme", "a4": "stellungnahme", "a5": "entscheidung", "a6": "entscheidung", "a7": "umsetzung"}, "abzweige": ["vertagt", "verwiesen", "abgelehnt"]},
+    "grosse-anfrage": {"schritte": {"g1": "einbringen", "g2": "stellungnahme", "g3": "stellungnahme", "g4": "entscheidung", "g5": "umsetzung"}, "abzweige": ["vertagt"]},
+    "kleine-anfrage": {"schritte": {"k1": "einbringen", "k2": "einbringen", "k3": "stellungnahme", "k4": "stellungnahme"}, "abzweige": []},
+    "beschlussvorlage": {"schritte": {"b1": "einbringen", "b2": "stellungnahme", "b3": "vorberatung", "b4": "vorberatung", "b5": "vorberatung", "b6": "entscheidung", "b7": "umsetzung"}, "abzweige": ["vertagt", "verwiesen", "abgelehnt"]},
+    "ausschuss-entscheidung": {"schritte": {"e1": "stellungnahme", "e2": "stellungnahme", "e3": "entscheidung", "e4": "umsetzung", "e5": "umsetzung", "e6": "umsetzung"}, "abzweige": ["vertagt", "abgelehnt"]},
+    "antrag-bv": {"schritte": {"v1": "einbringen", "v2": "stellungnahme", "v3": "stellungnahme", "v4": "stellungnahme", "v5": "entscheidung", "v6": "entscheidung", "v7": "entscheidung"}, "abzweige": ["vertagt"]},
+    "bauleitplanung": {"schritte": {"p1": "einbringen", "p2": "einbringen", "p3": "vorberatung", "p4": "vorberatung", "p5": "vorberatung", "p6": "vorberatung", "p7": "vorberatung", "p8": "vorberatung", "p9": "vorberatung", "p10": "entscheidung", "p11": "umsetzung"}, "abzweige": []},
+    "buergerantrag": {"schritte": {"u1": "einbringen", "u2": "stellungnahme", "u3": "stellungnahme", "u4": "entscheidung", "u5": "entscheidung", "u6": "entscheidung", "u7": "entscheidung", "u8": "umsetzung"}, "abzweige": ["vertagt", "abgelehnt"]},
+    "einwohnerfrage": {"schritte": {"f1": "einbringen", "f2": "stellungnahme", "f3": "entscheidung", "f4": "entscheidung"}, "abzweige": []},
+    "einwohnerantrag": {"schritte": {"w0": "einbringen", "w1": "einbringen", "w2": "stellungnahme", "w3": "entscheidung", "w4": "entscheidung", "w5": "entscheidung"}, "abzweige": []},
+    "buergerbegehren": {"schritte": {"c0": "einbringen", "c1": "einbringen", "c2": "einbringen", "c3": "stellungnahme", "c4": "entscheidung", "c5": "entscheidung", "c6": "entscheidung"}, "abzweige": []},
+    "dringlichkeitsantrag": {"schritte": {"d1": "einbringen", "d2": "stellungnahme", "d3": "stellungnahme", "d4": "entscheidung", "d5": "entscheidung"}, "abzweige": []},
+    "dringlichkeitsentscheidung": {"schritte": {"x1": "entscheidung", "x2": "entscheidung", "x3": "entscheidung", "x4": "entscheidung", "x5": "entscheidung"}, "abzweige": ["eilfall"]},
+    "mitteilung": {"schritte": {"m1": "einbringen", "m2": "entscheidung"}, "abzweige": []},
+    "nichtoeffentlich": {"schritte": {"n1": "einbringen", "n2": "entscheidung"}, "abzweige": []}
+   },
+   "extra_schritte": {"eingang-verwaltung": "einbringen", "stellungnahme": "stellungnahme", "umsetzung": "umsetzung"},
+   "rollen": {"Anhörung": "vorberatung", "Empfehlung": "vorberatung", "Vorberatung": "vorberatung", "Anregung": "vorberatung", "Aktuelle Informationen der Verwaltung": "vorberatung", "Entscheidung": "entscheidung", "Genehmigung": "entscheidung", "Eilentscheidung": "entscheidung", "Kenntnisnahme": "entscheidung", "*": "vorberatung"},
+   "arten": {"eingang": "einbringen", "stellungnahme": "stellungnahme"}
+  }
+}

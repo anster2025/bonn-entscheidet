@@ -1,0 +1,10 @@
+[Unit]
+Description=Bürgerseite "Bonn entscheidet" auf http://127.0.0.1:8767/
+
+[Service]
+WorkingDirectory=@PROJEKT@
+ExecStart=/usr/bin/python3 -m http.server 8767 --bind 127.0.0.1 --directory web
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

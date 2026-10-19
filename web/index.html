@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bonn entscheidet</title>
+<meta name="description" content="Wer in Bonn entscheidet – und wo du mitreden kannst.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/ratsblatt.css">
+<link rel="alternate" type="application/atom+xml" title="Bonn entscheidet: Neues aus Rat und Bezirken" href="feed.xml">
+</head>
+<body>
+<a class="sprung" href="#inhalt" data-sprung>Zum Inhalt</a>
+<header class="seitenkopf">
+  <div class="banner">
+    <div class="seite banner-innen">
+      <a class="banner-titel" href="#start">Bonn entscheidet</a>
+    </div>
+  </div>
+  <nav class="menue" aria-label="Bereiche">
+    <ul class="seite">
+      <li><a href="#start" data-bereich="start"><svg class="m-symbol" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 9.5 10 3.5l7 6M5 8v8.5h3.75v-5h2.5v5H15V8" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round" stroke-linecap="round"/></svg><span class="m-start">Start</span></a></li>
+      <li><a href="#verstehen" data-bereich="verstehen">Verstehen</a></li>
+      <li><a href="#vorgaenge" data-bereich="vorgaenge">Vorgänge</a></li>
+      <li><a href="#statistik" data-bereich="statistik"><svg class="m-symbol" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2.75a7.25 7.25 0 1 0 7.25 7.25H10z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><path d="M12.25 1.5v6.25h6.25a6.25 6.25 0 0 0-6.25-6.25z" fill="currentColor"/></svg>Statistik</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="inhalt" tabindex="-1">
+<div class="seite">
+  <section class="ansicht" data-ansicht="start" aria-labelledby="h-start">
+    <div class="start-raster">
+      <div class="start-kopf">
+        <h1 id="h-start" tabindex="-1">Demokratie vor Ort</h1>
+        <div class="start-text">
+          <p class="start-ein">Politik in Bonn passiert nicht hinter verschlossenen Türen. Rat, Ausschüsse und Bezirksvertretungen entscheiden über Dinge, die deinen Alltag prägen: Schulwege, Spielplätze, Radwege, Bebauungspläne. Und du kannst mitreden – an mehr Stellen, als du vielleicht denkst.</p>
+          <p>Unter <strong>Verstehen</strong> siehst du Schritt für Schritt, wie ein Antrag, eine Anfrage oder ein Bebauungsplan durch die Gremien läuft: wer berät, wer entscheidet, welche Fristen gelten – und wo du selbst ansetzen kannst, etwa mit einem Bürgerantrag oder einer Einwohnerfrage.</p>
+          <p>Unter <strong>Vorgänge</strong> findest du, was in Bonn gerade beraten wird. Suche nach einem Stichwort, filtere nach Gremium, Stadtbezirk oder Zeitraum und sieh auf einen Blick, wo ein Vorgang steht und welcher Schritt als Nächstes kommt.</p>
+          <p>Unter <strong>Statistik</strong> siehst du, was Bonn bewegt: welche Themen auf dem Tisch liegen, welche Fraktionen sie einbringen und wie viel noch offen ist.</p>
+          <p class="start-schluss">Such dir ein Thema, das dich bewegt. Du musst kein Profi sein, um dich einzubringen.</p>
+        </div>
+      </div>
+      <section class="daten" aria-labelledby="h-daten">
+        <h2 id="h-daten" tabindex="-1">Wo kommen die Daten her?</h2>
+        <ul>
+          <li>Sitzungen, Vorlagen und Beschlüsse stammen aus dem <a href="https://www.bonn.sitzung-online.de/">Ratsinformationssystem der Stadt Bonn</a>, abgerufen über den <a href="https://oparl.bonn.machdenstaat.de/">OParl-Spiegel</a>.</li>
+          <li>Die Abläufe folgen der <a href="https://recht.nrw.de/lrgv/gesetz/01012026-gemeindeordnung-fuer-das-land-nordrhein-westfalen-bekanntmachung-der/">Gemeindeordnung NRW</a> und dem <a href="https://www.bonn.de/service-bieten/stadtpolitik-ortsrecht/ortsrecht.php">Bonner Ortsrecht</a>.</li>
+          <li>„Voraussichtlich“ heißt: angekündigt, aber noch nicht geschehen. Manche Zusammenfassungen entstehen automatisch und sind so gekennzeichnet.</li>
+          <li>Stand der Daten: <time datetime="2026-10-16">16.10.2026</time>. Die Seite holt täglich neue Vorlagen und Sitzungsergebnisse. Keine Rechtsberatung.</li>
+          <li>Neues per Feedreader verfolgen: <a href="feed.xml">Feed abonnieren</a> (Atom) – neue Vorgänge, neue Schritte und Termine.</li>
+        </ul>
+      </section>
+    </div>
+  </section>
+
+  <section class="ansicht" data-ansicht="verstehen" aria-labelledby="h-verstehen" hidden>
+    <h1 id="h-verstehen" class="vh" tabindex="-1">Politische Prozesse verstehen</h1>
+    <div class="wahl">
+      <p class="satz wahl-kachel"><label for="wahl-verfahren">Zeig mir</label> <select class="satz-wahl" id="wahl-verfahren"></select></p>
+      <p class="verstehen-ein wahl-erkl" id="verfahren-kurz"></p>
+    </div>
+    <div id="ln-verfahren"></div>
+    <div class="ue" id="ueberblick" hidden></div>
+  </section>
+
+  <section class="ansicht" data-ansicht="vorgaenge" aria-labelledby="h-vorgaenge" hidden>
+    <h1 id="h-vorgaenge" tabindex="-1">Politische Vorgänge in Bonn</h1>
+    <div class="vg-raster" id="vg-raster">
+      <div class="vg-links">
+        <h2 class="vh">Liste der Vorgänge</h2>
+        <details class="vg-filter-box" id="vg-filter-box" open>
+          <summary>Filter<span class="vg-filter-n"></span></summary>
+          <form class="vg-filter" id="vg-filter" role="search" aria-label="Vorgänge filtern">
+            <p class="vg-feld"><label for="vg-q">Suche</label><input type="search" id="vg-q" name="q" placeholder="Titel oder Nummer" autocomplete="off" enterkeyhint="search"></p>
+            <p class="vg-feld"><label for="vg-status">Status</label><select id="vg-status" name="status"></select></p>
+            <p class="vg-feld"><label for="vg-gremium">Gremium</label><select id="vg-gremium" name="gremium"></select></p>
+            <p class="vg-feld"><label for="vg-art">Art</label><select id="vg-art" name="art"></select></p>
+            <p class="vg-feld"><label for="vg-partei">Fraktion</label><select id="vg-partei" name="partei"></select></p>
+            <p class="vg-feld"><label for="vg-thema">Thema</label><select id="vg-thema" name="thema"></select></p>
+            <p class="vg-feld"><label for="vg-zeit">Zeitraum</label><select id="vg-zeit" name="zeit"></select></p>
+            <p class="vg-spanne" id="vg-spanne" hidden><label for="vg-von">von</label><input type="date" id="vg-von" name="von"><label for="vg-bis">bis</label><input type="date" id="vg-bis" name="bis"></p>
+          </form>
+        </details>
+        <div class="vg-kopf"><p class="vg-zahl" id="vg-zahl" role="status" aria-live="polite"></p><div class="vg-aktiv" id="vg-aktiv"></div></div>
+        <nav class="vg-liste" id="vg-liste" aria-label="Vorgänge, neueste Aktivität zuerst" aria-describedby="vg-tasten"></nav>
+        <p class="vh" id="vg-tasten">Pfeiltasten wechseln den Eintrag, Eingabe öffnet ihn.</p>
+      </div>
+      <article class="vg-detail" id="vg-detail" aria-labelledby="vg-titel"></article>
+    </div>
+  </section>
+  <section class="ansicht" data-ansicht="statistik" aria-labelledby="h-statistik" hidden>
+    <h1 id="h-statistik" class="vh" tabindex="-1">Statistik</h1>
+    <form class="st-filter" id="st-filter" aria-label="Statistik filtern"><div class="st-felder" id="st-felder"></div><p class="st-summe"><span class="st-zahl" id="st-zahl" role="status" aria-live="polite"></span><a class="st-liste" id="st-liste" href="#vorgaenge">In der Liste ansehen <span aria-hidden="true">→</span></a></p></form>
+    <div class="st-raster" id="st-raster"></div>
+    <div class="st-tip" id="st-tip" hidden></div>
+  </section>
+<footer class="fuss" hidden>
+  <p>Stand der Daten: <time datetime="2026-10-16">16.10.2026</time><span class="meta-trenner" aria-hidden="true">·</span>Keine Rechtsberatung<span class="meta-trenner" aria-hidden="true">·</span><a href="#daten">Wo kommen die Daten her?</a></p>
+</footer>
+</div>
+</main>
+
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
